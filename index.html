@@ -206,18 +206,83 @@
         <section class="mt-4 p-10 space-y-7">
           <h1 class="text-start text-3xl sm:text-4xl lg:text-5xl">Allow Brokers Mutual To Connect You With Over 40+ Lenders</h1>      
         </section>
-        <div class="overflow-hidden relative w-full h-auto">
-          <div class="flex animate-scroll gap-2">
-            <img src="./images/lender-1.png"  alt="Image 1">            
-            <img src="./images/lender-2.png"  alt="Image 2">
-            <img src="./images/lender-3.png"  alt="Image 3">
+        <div class="overflow-hidden relative w-full h-[30vw] md:h-[10vw]">
+          <div class="flex animate-scroll gap-2 h-full">
+            <img src="./images/lender-1.png" alt="Image 1" class="h-full object-contain">
+            <img src="./images/lender-2.png" alt="Image 2" class="h-full object-contain">
+            <img src="./images/lender-3.png" alt="Image 3" class="h-full object-contain">
           </div>
         </div>
+        
+        
     </main>
+    
+    <footer class="bg-white text-gray-700 py-8">
+      <div class="container mx-auto px-4">
+        <!-- Footer Content -->
+        <div class="flex flex-wrap justify-between items-start">
+          <!-- Logo Section -->
+          <div class="w-full sm:w-auto mb-6 sm:mb-0">
+            <img src="./images/logo.webp" alt="BMA Logo" class="h-12 mb-2">
+            <p class="text-sm text-gray-600">Brokers Mutual Acceptance</p>
+          </div>
+          
+          <!-- Links Sections -->
+          <div class="w-full sm:w-auto">
+            <button onclick="toggleMenu('about-menu')" class="w-full text-left font-bold text-lg mb-2 sm:mb-0 sm:pointer-events-none sm:cursor-default">
+              About Us
+            </button>
+            <ul id="about-menu" class="hidden sm:block space-y-2 text-sm">
+              <li><a href="#" class="hover:underline">About Us</a></li>
+              <li><a href="#" class="hover:underline">Our People</a></li>
+              <li><a href="#" class="hover:underline">Careers</a></li>
+              <li><a href="#" class="hover:underline">What Our Clients Say</a></li>
+              <li><a href="#" class="hover:underline">Our Awards</a></li>
+              <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="w-full sm:w-auto">
+            <button onclick="toggleMenu('insurance-menu')" class="w-full text-left font-bold text-lg mb-2 sm:mb-0 sm:pointer-events-none sm:cursor-default">
+              Insurance
+            </button>
+            <ul id="insurance-menu" class="hidden sm:block space-y-2 text-sm">
+              <li><a href="#" class="hover:underline">General & Business Insurance</a></li>
+              <li><a href="#" class="hover:underline">Credit Insurance</a></li>
+              <li><a href="#" class="hover:underline">Cyber Insurance</a></li>
+              <li><a href="#" class="hover:underline">Insurance Premium Funding</a></li>
+              <li><a href="#" class="hover:underline">Insurance Case Studies</a></li>
+              <li><a href="#" class="hover:underline">Make a Claim</a></li>
+              <li><a href="#" class="hover:underline">Make a Payment</a></li>
+            </ul>
+          </div>
+          <div class="w-full sm:w-auto">
+            <button onclick="toggleMenu('finance-menu')" class="w-full text-left font-bold text-lg mb-2 sm:mb-0 sm:pointer-events-none sm:cursor-default">
+              Finance
+            </button>
+            <ul id="finance-menu" class="hidden sm:block space-y-2 text-sm">
+              <li><a href="#" class="hover:underline">Asset & Commercial Finance</a></li>
+              <li><a href="#" class="hover:underline">MKP Equipment Line</a></li>
+              <li><a href="#" class="hover:underline">MKP Property Finance</a></li>
+              <li><a href="#" class="hover:underline">Business Finance Case Studies</a></li>
+              <li><a href="#" class="hover:underline">Get Pre-Approved Finance</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Footer Bottom -->
+        <div class="mt-8 border-t pt-4 text-center text-sm text-gray-600">
+          <p>Brokers Mutual Unit Trust ABN 28 187 241 830 (Australian Credit Licence 23489 309)</p>
+          <p>Brokers Mutual (Insurance) Pty Ltd ABN 48 0930 989283 (AFSL 512 1234)</p>
+          <p class="mt-4">© Copyright 2024 Brokers Mutual</p>
+        </div>
+      </div>
+    </footer>
+    
+    
+    
     
 
 
-
+    <script src="./scripts/footer-script.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="./scripts/menu-script.js"></script>
   </body>

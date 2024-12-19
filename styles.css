@@ -17,6 +17,7 @@ body {
 main{
   max-width:px; /* or whatever max width you want */
   margin: 0 auto; /* centers content */
+  margin-bottom: 10vw;
 }
 
 .bx-shadow {
