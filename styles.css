@@ -15,7 +15,7 @@ body {
     
 }
 main{
-  max-width: 1700px; /* or whatever max width you want */
+  max-width:px; /* or whatever max width you want */
   margin: 0 auto; /* centers content */
 }
 
@@ -35,12 +35,22 @@ main{
 .font-custom-blue {
   color: var(--font-span-blue)
 }
+.car-custom-mr {
+  margin-right: 8rem;
+
+}
 
 
 /*Media Queries*/
 @media (min-width: 640px) {
   .custom-height-logo {
       height: 3.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mr-20 {
+      margin-right: 8rem;
   }
 }
 
