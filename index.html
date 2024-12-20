@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brokers Mutual</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="./output.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-gray-50">
     <header>
@@ -16,7 +16,7 @@
           <div class="flex justify-between items-center py-4">
             <!-- Logo -->
             <div class="flex items-center">
-              <a href="#" class="text-2xl font-bold text-black flex items-center">
+              <a href="./index.html" class="text-2xl font-bold text-black flex items-center">
                 <img
                   src="./images/logo.webp" 
                   alt="Logo"
@@ -27,10 +27,10 @@
   
             <!-- Navbar Links (Hidden on Small Screens) -->
             <div class="hidden lg:flex space-x-20">
-              <a href="#" class="text-gray-600 hover:text-gray-800">Home</a>
-              <a href="#" class="text-gray-600 hover:text-gray-800">About</a>
-              <a href="#" class="text-gray-600 hover:text-gray-800">Apply</a>
-              <a href="#" class="text-gray-600 hover:text-gray-800"
+              <a href="./index.html" class="text-gray-600 hover:text-gray-800">Home</a>
+              <a href="./about.html" class="text-gray-600 hover:text-gray-800">About</a>
+              <a href="./applynow.html" class="text-gray-600 hover:text-gray-800">Apply</a>
+              <a href="./contact.html" class="text-gray-600 hover:text-gray-800"
                 >Contact Us</a
               >
               <a href="#" class="text-gray-600 hover:text-gray-800">Join Us</a>
@@ -71,14 +71,14 @@
           <!-- Mobile Menu -->
           <div
             id="mobile-menu"
-            class="hidden md:hidden flex flex-col space-y-4 py-4 items-center gap-4 position"
+            class="hidden lg:hidden flex flex-col space-y-4 py-4 items-center gap-4 position"
           >
-          <a href="#" class="text-gray-600 hover:text-gray-800">Home</a>
+          <a href="./index.html" class="text-gray-600 hover:text-gray-800">Home</a>
   
-          <a href="#" class="text-gray-600 hover:text-gray-800">About</a>
-          <a href="#" class="text-gray-600 hover:text-gray-800">Apply</a>
-          <a href="#" class="text-gray-600 hover:text-gray-800">Contact Us</a>
-          <a href="#" class="text-gray-600 hover:text-gray-800">Join Us</a>
+          <a href="./about.html" class="text-gray-600 hover:text-gray-800">About</a>
+          <a href="./applynow.html" class="text-gray-600 hover:text-gray-800">Apply</a>
+          <a href="./contact.html" class="text-gray-600 hover:text-gray-800">Contact Us</a>
+          <a href="./join-bma.html" class="text-gray-600 hover:text-gray-800">Join Us</a>
             <div class="flex items-center space-x-2 text-gray-600">
               <img src="./images/call-icon.svg" alt="Call-Us">
               <span>1300 112 213</span>
@@ -93,7 +93,7 @@
         
         <div class="relative">
             <!-- Background Image hidden sm:flex -->
-            <img src="./images/home-banner.png" alt="Banner" class="w-full h-auto">
+            <img src="../images/home-banner.png" alt="Banner" class="w-full h-auto">
           
             <!-- Content over the image -->
             <div class="absolute p-6 inset-0 grid grid-cols-12 items-center justify-items-center text-center ">
@@ -111,7 +111,7 @@
                 </div>
                 <div class="col-span-1"></div>
               <!-- Image centered in the right column -->
-              <img src="./images/car-rel.png" alt="Car" 
+              <img src="../images/car-rel.png" alt="Car" 
      class="w-full h-auto mb-10 col-span-5">
 
             </div>
@@ -122,19 +122,19 @@
             <h1 class="text-start text-3xl sm:text-4xl lg:text-5xl">Conneting You With The Perfect Loan</h1>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4 items-center">
                 <div class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center">
-                    <img src="./images/car-loan.png" class="lg:w-3/4 xl:w-2/4" alt="car-img">
+                    <img src="../images/car-loan.png" class="lg:w-3/4 xl:w-2/4" alt="car-img">
                     <h2 class="text-center">Car Loans</h2>
                 </div>
                 <div class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center ">
-                    <img src="./images/boat-loan.png" class="lg:w-3/4 xl:w-2/4" alt="boat-img">
+                    <img src="../images/boat-loan.png" class="lg:w-3/4 xl:w-2/4" alt="boat-img">
                     <h2 class="text-center">Boat Loans</h2>
                 </div>
                 <div class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center">
-                    <img src="./images/jetski-loan.png" class="lg:w-3/4 xl:w-2/4" alt="jetski-img">
+                    <img src="../images/jetski-loan.png" class="lg:w-3/4 xl:w-2/4" alt="jetski-img">
                     <h2 class="text-center">Jetski Loans</h2>
                 </div>
                 <div class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center">
-                    <img src="./images/truck-loan.png" class="lg:w-3/4 xl:w-2/4" alt="truck-img">
+                    <img src="../images/truck-loan.png" class="lg:w-3/4 xl:w-2/4" alt="truck-img">
                     <h2 class="text-center">Truck Loans</h2>
                 </div>
             </div>
@@ -183,16 +183,16 @@
             <div class="grid grid-cols-3 gap-4">
 
               <div class="col-span-3 sm:col-span-1 justify-items-center items-center bx-shadow rounded-lg p-5 bg-white widget">
-                <img src="./images/approval.png" alt="img-display-1">
+                <img src="../images/approval.png" alt="img-display-1">
                 <p class="text-xl">Personal Loans</p>
               </div>
               
               <div class="col-span-3 sm:col-span-1 justify-items-center items-center bx-shadow rounded-lg p-5 bg-white widget">
-                <img src="./images/bma-approval.png" alt="img-display-2">
+                <img src="../images/bma-approval.png" alt="img-display-2">
                 <p class="text-xl">Home Loans</p>
               </div>
               <div class="col-span-3 sm:col-span-1 justify-items-center items-center bx-shadow rounded-lg p-5 bg-white widget">
-                <img src="./images/commercial.png" alt="img-display-3">
+                <img src="../images/commercial.png" alt="img-display-3">
                 <p class="text-xl">Business Loans</p>
               </div>
             </div>  
@@ -228,26 +228,25 @@
               About Us
             </button>
             <ul id="about-menu" class="hidden sm:block space-y-2 text-sm">
-              <li><a href="#" class="hover:underline">About Us</a></li>
+              <li><a href="./about.html" class="hover:underline">About Us</a></li>
+              <li><a href="./contact.html" class="hover:underline">Contact Us</a></li>
               <li><a href="#" class="hover:underline">Our People</a></li>
               <li><a href="#" class="hover:underline">Careers</a></li>
               <li><a href="#" class="hover:underline">What Our Clients Say</a></li>
-              <li><a href="#" class="hover:underline">Our Awards</a></li>
               <li><a href="#" class="hover:underline">Privacy Policy</a></li>
             </ul>
           </div>
           <div class="w-full sm:w-auto">
             <button onclick="toggleMenu('insurance-menu')" class="w-full text-left font-bold text-lg mb-2 sm:mb-0 sm:pointer-events-none sm:cursor-default">
-              Insurance
+              Site Map
             </button>
             <ul id="insurance-menu" class="hidden sm:block space-y-2 text-sm">
-              <li><a href="#" class="hover:underline">General & Business Insurance</a></li>
-              <li><a href="#" class="hover:underline">Credit Insurance</a></li>
-              <li><a href="#" class="hover:underline">Cyber Insurance</a></li>
-              <li><a href="#" class="hover:underline">Insurance Premium Funding</a></li>
-              <li><a href="#" class="hover:underline">Insurance Case Studies</a></li>
-              <li><a href="#" class="hover:underline">Make a Claim</a></li>
-              <li><a href="#" class="hover:underline">Make a Payment</a></li>
+              <li><a href="/index.html" class="hover:underline">Home</a></li>
+              <li><a href="/applynow.html" class="hover:underline">Apply Now</a></li>
+              <li><a href="/about.html" class="hover:underline">About</a></li>
+              <li><a href="/join-bma.html" class="hover:underline">Join Us</a></li>
+              <li><a href="/contact.html" class="hover:underline">Contact Us</a></li>
+              <li><a href="#" class="hover:underline">Broker Resources</a></li>
             </ul>
           </div>
           <div class="w-full sm:w-auto">
@@ -256,9 +255,9 @@
             </button>
             <ul id="finance-menu" class="hidden sm:block space-y-2 text-sm">
               <li><a href="#" class="hover:underline">Asset & Commercial Finance</a></li>
-              <li><a href="#" class="hover:underline">MKP Equipment Line</a></li>
-              <li><a href="#" class="hover:underline">MKP Property Finance</a></li>
-              <li><a href="#" class="hover:underline">Business Finance Case Studies</a></li>
+              <li><a href="#" class="hover:underline">BMA Boat Loans</a></li>
+              <li><a href="#" class="hover:underline">BMA Property Finance</a></li>
+              <li><a href="#" class="hover:underline">BMA Car Loans</a></li>
               <li><a href="#" class="hover:underline">Get Pre-Approved Finance</a></li>
             </ul>
           </div>
@@ -271,14 +270,8 @@
         </div>
       </div>
     </footer>
-    
-    
-    
-    
-
-
-    <script src="./scripts/footer-script.js"></script>
+    <script src="../scripts/footer-script.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <script src="./scripts/menu-script.js"></script>
+    <script src="../scripts/menu-script.js"></script>
   </body>
 </html>

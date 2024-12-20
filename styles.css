@@ -2,6 +2,7 @@
 
 :root{
     --main-color: blue;
+    --jumbo-blue: rgb(0, 106, 255);
     --custom-blue-bg: #EBF3F9;
     --font-span-blue: #1b30e7
 
@@ -20,6 +21,9 @@ main{
   margin-bottom: 10vw;
 }
 
+.bg-custom-blue-bright {
+  background:var(--jumbo-blue)
+}
 .bx-shadow {
   box-shadow: 0px 0px 4px 0px #00000047
 }
@@ -39,6 +43,10 @@ main{
 .car-custom-mr {
   margin-right: 8rem;
 
+}
+.adjacent-rd {
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 
