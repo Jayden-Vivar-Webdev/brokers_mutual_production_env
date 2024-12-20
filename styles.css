@@ -76,7 +76,7 @@ main{
   
   /* Apply the animation */
   .appear-image {
-    animation: appear 3s ease-in-out;
+    animation: appear 3s ease-in;
   }
   
 
