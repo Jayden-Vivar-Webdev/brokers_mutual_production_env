@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brokers Mutual</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./output.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+  </head>
+  <body class="bg-gray-50">
+    <header>
+        <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4">
+          <div class="flex justify-between items-center py-4">
+            <!-- Logo -->
+            <div class="flex items-center">
+              <a href="./index.html" class="text-2xl font-bold text-black flex items-center">
+                <img
+                  src="./images/logo.webp" 
+                  alt="Logo"
+                  class="w-15 h-12 mr-2"
+                />
+              </a>
+            </div>
+  
+            <!-- Navbar Links (Hidden on Small Screens) -->
+            <div class="hidden lg:flex space-x-20">
+              <a href="./index.html" class="text-gray-600 hover:text-gray-800">Home</a>
+              <a href="./about.html" class="text-gray-600 hover:text-gray-800">About</a>
+              <a href="./applynow.html" class="text-gray-600 hover:text-gray-800">Apply</a>
+              <a href="contact.html" class="text-gray-600 hover:text-gray-800"
+                >Contact Us</a
+              >
+              <a href="./join-bma.html" class="text-gray-600 hover:text-gray-800">Join Us</a>
+            </div>
+  
+            <!-- Phone Number -->
+            <div class="hidden lg:flex items-center space-x-2 text-gray-600">
+              
+              <img src="./images/call-icon.svg" alt="Call-Us">
+              <span>1300 112 213</span>
+            </div>
+  
+            <!-- Mobile Menu Toggle -->
+            <div class="lg:hidden flex items-center">
+              <button
+                id="menu-btn"
+                class="text-gray-700 focus:outline-none focus:text-gray-800"
+              >
+              <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+            
+              </button>
+            </div>
+          </div>
+  
+          <!-- Mobile Menu -->
+          <div
+            id="mobile-menu"
+            class="hidden lg:hidden flex flex-col space-y-4 py-4 items-center gap-4 position"
+          >
+          <a href="./index.html" class="text-gray-600 hover:text-gray-800">Home</a>
+  
+          <a href="./about.html" class="text-gray-600 hover:text-gray-800">About</a>
+          <a href="./applynow.html" class="text-gray-600 hover:text-gray-800">Apply</a>
+          <a href="./contact.html" class="text-gray-600 hover:text-gray-800">Contact Us</a>
+          <a href="./join-bma.html" class="text-gray-600 hover:text-gray-800">Join Us</a>
+            <div class="flex items-center space-x-2 text-gray-600">
+              <img src="./images/call-icon.svg" alt="Call-Us">
+              <span>1300 112 213</span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section>
+
+        
+        <div class="relative">
+            <!-- Background Image hidden sm:flex -->
+            <img src="./images/bma-apply-now.png" alt="Banner" class="w-full h-auto">
+          
+            <!-- Content over the image -->
+            <div class="absolute p-10 inset-0 grid grid-cols-2 items-center justify-items-center text-center ">
+              <!-- Text centered in the left column -->
+               <div class="col-span-1 text-start items-start space-y-4 p-5">
+                  <h1 class="text-white text-xl sm:text-2xl md:text-3xl lg:text-5xl text-start ml-1 leading-loose">
+                    Apply Now
+                  </h1>
+                  <p class="hidden sm:flex text-white text-start text-sm sm:text-base md:text-lg lg:text-xl ml-1">
+                    Apply now my completing the form below and one of our brokers will get back to you shortly
+                  </p>
+                  
+                </div>
+            </div>
+          </div>
+
+        </section>
+        
+        
+        
+
+        <section class="text-sm sm:hidden sm:text-lg md:text-2xl lg:text-3xl h-20 text-white text-center justify-center flex items-center p-10 m-4 rounded-lg" style="background-color: rgb(17 124 255);">
+            Apply now my completing the form below and one of our brokers will get back to you shortly
+        </section>
+        <section class="text-sm h-20 bg-black text-white text-center justify-center flex items-center p-10">
+         Zapier Apply Now Form Section
+        </section>
+        <section class="mt-4 p-10 space-y-7">
+          <h1 class="text-start text-3xl sm:text-4xl lg:text-5xl">Allow Brokers Mutual To Connect You With Over 40+ Lenders</h1>      
+        </section>
+        
+        <div class="scrolling-background-l mb-0"></div>
+        
+        
+    </main>
+    
+    <footer class="bg-white text-gray-700 py-8">
+      <div class="container mx-auto px-4">
+        <!-- Footer Content -->
+        <div class="flex flex-wrap justify-between items-start">
+          <!-- Logo Section -->
+          <div class="w-full sm:w-auto mb-6 sm:mb-0">
+            <img src="./images/logo.webp" alt="BMA Logo" class="h-12 mb-2">
+            <p class="text-sm text-gray-600">Brokers Mutual Acceptance</p>
+          </div>
+          
+          <!-- Links Sections -->
+          <div class="w-full sm:w-auto">
+            <button onclick="toggleMenu('about-menu')" class="w-full text-left font-bold text-lg mb-2 sm:mb-0 sm:pointer-events-none sm:cursor-default">
+              About Us
+            </button>
+            <ul id="about-menu" class="hidden sm:block space-y-2 text-sm">
+              <li><a href="./about.html" class="hover:underline">About Us</a></li>
+              <li><a href="./contact.html" class="hover:underline">Contact Us</a></li>
+              <li><a href="" class="hover:underline">Our People</a></li>
+              <li><a href="#" class="hover:underline">Careers</a></li>
+              <li><a href="#" class="hover:underline">What Our Clients Say</a></li>
+              <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="w-full sm:w-auto">
+            <button onclick="toggleMenu('insurance-menu')" class="w-full text-left font-bold text-lg mb-2 sm:mb-0 sm:pointer-events-none sm:cursor-default">
+              Site Map
+            </button>
+            <ul id="insurance-menu" class="hidden sm:block space-y-2 text-sm">
+              <li><a href="./index.html" class="hover:underline">Home</a></li>
+              <li><a href="./applynow.html" class="hover:underline">Apply Now</a></li>
+              <li><a href="./about.html" class="hover:underline">About</a></li>
+              <li><a href="./join-bma.html" class="hover:underline">Join Us</a></li>
+              <li><a href="./contact.html" class="hover:underline">Contact Us</a></li>
+              <li><a href="#" class="hover:underline">Broker Resources</a></li>
+            </ul>
+          </div>
+          <div class="w-full sm:w-auto">
+            <button onclick="toggleMenu('finance-menu')" class="w-full text-left font-bold text-lg mb-2 sm:mb-0 sm:pointer-events-none sm:cursor-default">
+              Finance
+            </button>
+            <ul id="finance-menu" class="hidden sm:block space-y-2 text-sm">
+              <li><a href="#" class="hover:underline">Asset & Commercial Finance</a></li>
+              <li><a href="#" class="hover:underline">BMA Boat Loans</a></li>
+              <li><a href="#" class="hover:underline">BMA Property Finance</a></li>
+              <li><a href="#" class="hover:underline">BMA Car Loans</a></li>
+              <li><a href="#" class="hover:underline">Get Pre-Approved Finance</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Footer Bottom -->
+        <div class="mt-8 border-t pt-4 text-center text-sm text-gray-600">
+          <p>Brokers Mutual Unit Trust ABN 28 187 241 830 (Australian Credit Licence 23489 309)</p>
+          <p>Brokers Mutual (Insurance) Pty Ltd ABN 48 0930 989283 (AFSL 512 1234)</p>
+          <p class="mt-4">© Copyright 2024 Brokers Mutual</p>
+        </div>
+      </div>
+    </footer>
+    <div class="text-center p-2 bg-black">
+      <a href="#" class="text-md text-white">Powered By NexaWeb</a>
+    </div>
+    
+    
+    
+
+
+    <script src="./scripts/footer-script.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="./scripts/menu-script.js"></script>
+  </body>
+</html>
