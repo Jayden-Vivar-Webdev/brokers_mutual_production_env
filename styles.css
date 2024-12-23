@@ -48,6 +48,9 @@ main{
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
 }
+.justify-around {
+  justify-content: space-around !important;
+}
 
 
 /*Media Queries*/
