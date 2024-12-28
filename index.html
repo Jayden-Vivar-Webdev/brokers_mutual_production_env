@@ -1,256 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Brokers Mutual</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link href="./output.css" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  </head>
-  <body class="bg-gray-50">
-    <header>
-        <!-- Navbar -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brokers Mutual</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link href="./output.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body class="bg-gray-50">
+  <header>
+    <!-- Navbar -->
     <nav class="bg-white shadow-md">
-        <div class="container mx-auto px-4">
-          <div class="flex justify-between items-center py-4">
-            <!-- Logo -->
-            <div class="flex items-center">
-              <a href="./index.html" class="text-2xl font-bold text-black flex items-center">
-                <img
-                  src="./images/logo.webp" 
-                  alt="Logo"
-                  class="w-15 h-12 mr-2"
-                />
-              </a>
-            </div>
-  
-            <!-- Navbar Links (Hidden on Small Screens) -->
-            <div class="hidden lg:flex space-x-20">
-              <a href="./index.html" class="text-gray-600 hover:text-gray-800">Home</a>
-              <a href="./about.html" class="text-gray-600 hover:text-gray-800">About</a>
-              <a href="./applynow.html" class="text-gray-600 hover:text-gray-800">Apply</a>
-              <a href="./contact.html" class="text-gray-600 hover:text-gray-800"
-                >Contact Us</a
-              >
-              <a href="#" class="text-gray-600 hover:text-gray-800">Join Us</a>
-            </div>
-  
-            <!-- Phone Number -->
-            <div class="hidden lg:flex items-center space-x-2 text-gray-600">
-              
-              <img src="./images/call-icon.svg" alt="Call-Us">
-              <span>1300 112 213</span>
-            </div>
-  
-            <!-- Mobile Menu Toggle -->
-            <div class="lg:hidden flex items-center">
-              <button
-                id="menu-btn"
-                class="text-gray-700 focus:outline-none focus:text-gray-800"
-              >
-              <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="w-6 h-6"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
-            
-              </button>
-            </div>
+      <div class="container mx-auto px-4">
+        <div class="flex justify-between items-center py-4">
+          <!-- Logo -->
+          <div class="flex items-center">
+            <a href="./index.html" class="text-2xl font-bold text-black flex items-center">
+              <img src="./images/logo.webp" alt="Logo" class="w-15 h-12 mr-2" />
+            </a>
           </div>
-  
-          <!-- Mobile Menu -->
-          <div
-            id="mobile-menu"
-            class="hidden lg:hidden flex flex-col space-y-4 py-4 items-center gap-4 position"
-          >
+
+          <!-- Navbar Links (Hidden on Small Screens) -->
+          <div class="hidden lg:flex space-x-20">
+            <a href="./index.html" class="text-gray-600 hover:text-gray-800">Home</a>
+            <a href="./about.html" class="text-gray-600 hover:text-gray-800">About</a>
+            <a href="./applynow.html" class="text-gray-600 hover:text-gray-800">Apply</a>
+            <a href="./contact.html" class="text-gray-600 hover:text-gray-800">Contact Us</a>
+            <a href="#" class="text-gray-600 hover:text-gray-800">Join Us</a>
+          </div>
+
+          <!-- Phone Number -->
+          <div class="hidden lg:flex items-center space-x-2 text-gray-600">
+
+            <img src="./images/call-icon.svg" alt="Call-Us">
+            <span>1300 112 213</span>
+          </div>
+
+          <!-- Mobile Menu Toggle -->
+          <div class="lg:hidden flex items-center">
+            <button id="menu-btn" class="text-gray-700 focus:outline-none focus:text-gray-800">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+
+            </button>
+          </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden flex flex-col space-y-4 py-4 items-center gap-4 position">
           <a href="./index.html" class="text-gray-600 hover:text-gray-800">Home</a>
-  
+
           <a href="./about.html" class="text-gray-600 hover:text-gray-800">About</a>
           <a href="./applynow.html" class="text-gray-600 hover:text-gray-800">Apply</a>
           <a href="./contact.html" class="text-gray-600 hover:text-gray-800">Contact Us</a>
           <a href="./join-bma.html" class="text-gray-600 hover:text-gray-800">Join Us</a>
-            <div class="flex items-center space-x-2 text-gray-600">
-              <img src="./images/call-icon.svg" alt="Call-Us">
-              <span>1300 112 213</span>
-            </div>
+          <div class="flex items-center space-x-2 text-gray-600">
+            <img src="./images/call-icon.svg" alt="Call-Us">
+            <span>1300 112 213</span>
           </div>
         </div>
-      </nav>
-    </header>
-    <main>
-        <section>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section>
 
-        
-        <div class="relative">
-            <!-- Background Image hidden sm:flex -->
-            <img src="./images/home-banner.png" alt="Banner" class="w-full h-auto">
-          
-            <!-- Content over the image -->
-            <div class="absolute p-6 inset-0 grid grid-cols-12 items-center justify-items-center text-center ">
-              <!-- Text centered in the left column -->
-               <div class="col-span-5 text-start items-start space-y-4">
-                  <h1 class="text-white text-lg sm:text-2xl md:text-3xl lg:text-5xl text-start ml-1 leading-loose">
-                    Making Finance Simple Beyond Documents
-                  </h1>
-                  <p class="text-white text-start text-sm sm:text-base md:text-lg lg:text-xl ml-1 hidden sm:flex">
-                    Allow Brokers Mutual to provide you with services. We make finance simple.
-                  </p>
-                  <div class="hidden md:inline-flex text-sm sm:text-1xl md:text-lg lg:text-1xl  p-2 px-3 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
-                    See How We Can Help <box-icon name='right-arrow-alt' color='#fff9f9'></box-icon>
-                  </div>
-                </div>
-                <div class="col-span-1"></div>
-              <!-- Image centered in the right column -->
-              <img src="./images/car-rel.png" alt="Car" 
-     class="w-full h-auto mb-10 col-span-5 appear-image">
 
-            </div>
-          </div>
+      <div class="relative">
+        <!-- Background Image hidden sm:flex -->
+        <img src="./images/home-banner.png" loading="lazy" alt="Banner" class="w-full h-auto">
 
-        </section>
-        <section class="mt-4 p-10 space-y-7">
-            <h1 class="text-start text-3xl sm:text-4xl lg:text-5xl">Conneting You With The Perfect Loan</h1>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 items-center">
-                <div class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center ">
-                    <img src="./images/car-loan.png" class="lg:w-3/4 xl:w-2/4 center-item" alt="car-img">
-                    <h2 class="text-center">Car Loans</h2>
-                </div>
-                <div class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center">
-                    <img src="./images/boat-loan.png" class="lg:w-3/4 xl:w-2/4 center-item" alt="boat-img">
-                    <h2 class="text-center">Boat Loans</h2>
-                </div>
-                <div class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center">
-                    <img src="./images/jetski-loan.png" class="lg:w-3/4 xl:w-2/4 center-item" alt="jetski-img">
-                    <h2 class="text-center">Jetski Loans</h2>
-                </div>
-                <div class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center">
-                    <img src="./images/truck-loan.png" class="lg:w-3/4 xl:w-2/4 center-item" alt="truck-img">
-                    <h2 class="text-center">Truck Loans</h2>
-                </div>
-            </div>
-        </section>
-        <section class="mb-4 p-10 space-y-7">
-          
-          <div class="p-10 bg-custom-blue rounded-2xl space-y-6">
-            <img src="./images/logo.webp" class="h-12 sm:h-auto" alt="logo">
-            <h1 class="font-normal text-2xl sm:text-4xl md:text-4xl lg:text-5xl">The <span class="font-custom-blue">premium</span> solution for your financial needs.
+        <!-- Content over the image -->
+        <div class="absolute p-6 inset-0 grid grid-cols-12 items-center justify-items-center text-center ">
+          <!-- Text centered in the left column -->
+          <div class="col-span-5 text-start items-start space-y-4">
+            <h1 class="text-white text-lg sm:text-2xl md:text-3xl lg:text-5xl text-start ml-1 leading-loose hidden-elm">
+              Making Finance Simple Beyond Documents
             </h1>
-            <div class="grid grid-cols-2 gap-5">
-              <div class="col-span-2 sm:col-span-2 md:col-span-2 lg:col-span-1">
-                <i class='bx bxs-badge-check text-2xl'></i>
-                <h1 class="text-xl sm:text-2xl font-semibold">Car Loans</h1>
-                <p class="text-md sm:text-lg">Count on us to organise and connect you with mutiple lenders
-                  for your next vehicle.
-                </p>
-              </div>
-              <div class="col-span-2 sm:col-span-2 md:col-span-2 lg:col-span-1">
-                <i class='bx bxs-badge-check text-2xl'></i>
-                <h1 class="text-xl sm:text-2xl font-semibold">Boat Loans</h1>
-                <p class="text-md sm:text-lg">We have mutiple lenders that can help you secure your next boat for your weekend adventures.
-                </p>
-              </div>
-              <div class="col-span-2 sm:col-span-2 md:col-span-2 lg:col-span-1">
-                <i class='bx bxs-badge-check text-2xl'></i>
-                <h1 class="text-xl sm:text-2xl font-semibold">Jetski Loans</h1>
-                <p class="text-md sm:text-lg">We provide loans for hobby vehicles including jet-skis motorbikes and more.
-                </p>
-              </div>
-              <div class="col-span-2 sm:col-span-2 md:col-span-2 lg:col-span-1">
-                <i class='bx bxs-badge-check text-2xl'></i>
-                <h1 class="text-xl sm:text-2xl font-semibold">Truck Loan</h1>
-                <p class="text-md sm:text-lg">Need to secure a loan for your business vehicles? Allow us to assist you through the process.
-                </p>
-              </div>
-              <div class="col-span-2 bg-black text-white inline-flex p-2 w-fit text-center text-xl rounded-lg px-5 py-3 text-1xl">
-                Contact Us
-              </div>
+            <p class="text-white text-start text-sm sm:text-base md:text-lg lg:text-xl ml-1 hidden sm:flex">
+              Allow Brokers Mutual to provide you with services. We make finance simple.
+            </p>
+            <div
+              class="hidden md:inline-flex text-sm sm:text-1xl md:text-lg lg:text-1xl  p-2 px-3 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
+              See How We Can Help <box-icon name='right-arrow-alt' color='#fff9f9'></box-icon>
             </div>
           </div>
-        </section>
-        <section class="mt-4 p-10 space-y-7">
-          <div class="space-y-7">
-            <h1 class="text-start text-3xl sm:text-4xl lg:text-5xl">Personal Loans With Mutiple Lenders</h1>
-            <div class="grid grid-cols-3 gap-4">
+          <div class="col-span-1"></div>
+          <!-- Image centered in the right column -->
+          <img src="./images/car-rel.png" alt="Car" class="w-full h-auto mb-10 col-span-5 appear-image">
 
-              <div class="col-span-3 sm:col-span-1 justify-items-center items-center bx-shadow rounded-lg p-5 bg-white widget">
-                <img src="./images/approval.png" alt="img-display-1">
-                <p class="text-xl text-center">Personal Loans</p>
-              </div>
-              
-              <div class="col-span-3 sm:col-span-1 justify-items-center items-center bx-shadow rounded-lg p-5 bg-white widget">
-                <img src="./images/bma-approval.png" alt="img-display-2">
-                <p class="text-xl text-center">Home Loans</p>
-              </div>
-              <div class="col-span-3 sm:col-span-1 justify-items-center items-center bx-shadow rounded-lg p-5 bg-white widget">
-                <img src="./images/commercial.png" alt="img-display-3">
-                <p class="text-xl text-center">Business Loans</p>
-              </div>
-            </div>  
-          </div>
-        </section>
+        </div>
+      </div>
 
-        <section class="h-20 bg-black text-white text-center justify-center flex items-center">
-          Zapier Contact Form section
-        </section>
-          
-        <section class="mt-4 p-10 space-y-7">
-          <h1 class="text-start text-3xl sm:text-4xl lg:text-5xl">Allow Brokers Mutual To Connect You With Over 40+ Lenders</h1>      
-        </section>
-        
-        <div class="scrolling-background-l mb-0"></div>
-        
-        
-    </main>
-    
-    <footer class="bg-white text-gray-700 py-8">
-      <div class="container mx-auto px-4">
-        <!-- Footer Content -->
-        <div class="flex flex-wrap justify-around items-start">
-          <!-- Logo Section -->
-          <div class="w-full sm:w-auto mb-6 sm:mb-0">
-            <img src="./images/logo.webp" alt="BMA Logo" class="h-12 mb-2">
-            <p class="text-sm text-gray-600">Brokers Mutual Acceptance</p>
+    </section>
+    <section class="mt-4 p-10 space-y-7">
+      <h1 class="text-start text-3xl sm:text-4xl lg:text-5xl hidden-elm">Conneting You With The Perfect Loan</h1>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 items-center">
+        <div class="grid-elm widget px-6 py-5 bx-shadow rounded-lg justify-items-center hidden-elm">
+          <img src="./images/car-loan.png" loading="lazy" class="lg:w-3/4 xl:w-2/4 center-item" alt="car-img">
+          <h2 class="text-center">Car Loans</h2>
+        </div>
+        <div class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center hidden-elm grid-elm">
+          <img src="./images/boat-loan.png" loading="lazy" class="lg:w-3/4 xl:w-2/4 center-item" alt="boat-img">
+          <h2 class="text-center">Boat Loans</h2>
+        </div>
+        <div class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center hidden-elm grid-elm">
+          <img src="./images/jetski-loan.png" loading="lazy" class="lg:w-3/4 xl:w-2/4 center-item" alt="jetski-img">
+          <h2 class="text-center">Jetski Loans</h2>
+        </div>
+        <div class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center hidden-elm grid-elm">
+          <img src="./images/truck-loan.png" loading="lazy" class="lg:w-3/4 xl:w-2/4 center-item" alt="truck-img">
+          <h2 class="text-center">Truck Loans</h2>
+        </div>
+
+      </div>
+
+    </section>
+    <section class="mb-4 p-10 space-y-7">
+
+      <div class="p-10 bg-custom-blue rounded-2xl space-y-6">
+        <img src="./images/logo.webp" class="h-12 sm:h-auto hidden-elm" alt="logo">
+        <h1 class="font-normal text-2xl sm:text-4xl md:text-4xl lg:text-5xl hidden-elm">The <span
+            class="font-custom-blue hidden-elm">premium</span> solution for your financial needs.
+        </h1>
+        <div class="grid grid-cols-2 gap-5">
+          <div class="col-span-2 sm:col-span-2 md:col-span-2 lg:col-span-1">
+            <i class='bx bxs-badge-check text-2xl'></i>
+            <h1 class="text-xl sm:text-2xl font-semibold hidden-elm">Car Loans</h1>
+            <p class="text-md sm:text-lg hidden-elm">Count on us to organise and connect you with mutiple lenders
+              for your next vehicle.
+            </p>
           </div>
-          
-          <!-- Links Sections -->
-          <div class="w-full sm:w-auto">
-            <button onclick="toggleMenu('about-menu')" class="w-full text-left font-bold text-lg mb-2 sm:mb-0 sm:pointer-events-none sm:cursor-default">
-              About Us
-            </button>
-            <ul id="about-menu" class="hidden sm:block space-y-2 text-sm">
-              <li><a href="./about.html" class="hover:underline">About Us</a></li>
-              <li><a href="./contact.html" class="hover:underline">Contact Us</a></li>
-              <!-- <li><a href="#" class="hover:underline">Our People</a></li>
+          <div class="col-span-2 sm:col-span-2 md:col-span-2 lg:col-span-1">
+            <i class='bx bxs-badge-check text-2xl'></i>
+            <h1 class="text-xl sm:text-2xl font-semibold hidden-elm">Boat Loans</h1>
+            <p class="text-md sm:text-lg hidden-elm">We have mutiple lenders that can help you secure your next boat for
+              your
+              weekend adventures.
+            </p>
+          </div>
+          <div class="col-span-2 sm:col-span-2 md:col-span-2 lg:col-span-1">
+            <i class='bx bxs-badge-check text-2xl'></i>
+            <h1 class="text-xl sm:text-2xl font-semibold hidden-elm">Jetski Loans</h1>
+            <p class="text-md sm:text-lg hidden-elm">We provide loans for hobby vehicles including jet-skis motorbikes
+              and more.
+            </p>
+          </div>
+          <div class="col-span-2 sm:col-span-2 md:col-span-2 lg:col-span-1">
+            <i class='bx bxs-badge-check text-2xl'></i>
+            <h1 class="text-xl sm:text-2xl font-semibold hidden-elm">Truck Loan</h1>
+            <p class="text-md sm:text-lg hidden-elm">Need to secure a loan for your business vehicles? Allow us to
+              assist you
+              through the process.
+            </p>
+          </div>
+          <div
+            class="col-span-2 bg-black text-white inline-flex p-2 w-fit text-center text-xl rounded-lg px-5 py-3 text-1xl hidden-elm">
+            Contact Us
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-4 p-10 space-y-7">
+      <div class="space-y-7">
+        <h1 class="text-start text-3xl sm:text-4xl lg:text-5xl hidden-elm">Personal Loans With Mutiple Lenders</h1>
+        <div class="grid grid-cols-3 gap-4">
+
+          <div
+            class="col-span-3 sm:col-span-1 justify-items-center items-center bx-shadow rounded-lg p-5 bg-white widget hidden-elm">
+            <img src="./images/approval.png" loading="lazy" alt="img-display-1">
+            <p class="text-xl text-center">Personal Loans</p>
+          </div>
+
+          <div
+            class="col-span-3 sm:col-span-1 justify-items-center items-center bx-shadow rounded-lg p-5 bg-white widget hidden-elm">
+            <img src="./images/bma-approval.png" loading="lazy" alt="img-display-2">
+            <p class="text-xl text-center">Home Loans</p>
+          </div>
+          <div
+            class="col-span-3 sm:col-span-1 justify-items-center items-center bx-shadow rounded-lg p-5 bg-white widget hidden-elm">
+            <img src="./images/commercial.png" loading="lazy" alt="img-display-3">
+            <p class="text-xl text-center">Business Loans</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="h-20 bg-black text-white text-center justify-center flex items-center hidden-elm">
+      Zapier Contact Form section
+    </section>
+
+    <section class="mt-4 p-10 space-y-7">
+      <h1 class="text-start text-3xl sm:text-4xl lg:text-5xl hidden-elm">Allow Brokers Mutual To Connect You With Over
+        40+ Lenders
+      </h1>
+    </section>
+
+    <div class="scrolling-background-l mb-0 hidden-elm"></div>
+
+
+  </main>
+
+  <footer class="bg-white text-gray-700 py-8">
+    <div class="container mx-auto px-4">
+      <!-- Footer Content -->
+      <div class="flex flex-wrap justify-around items-start">
+        <!-- Logo Section -->
+        <div class="w-full sm:w-auto mb-6 sm:mb-0">
+          <img src="./images/logo.webp" alt="BMA Logo" class="h-12 mb-2">
+          <p class="text-sm text-gray-600">Brokers Mutual Acceptance</p>
+        </div>
+
+        <!-- Links Sections -->
+        <div class="w-full sm:w-auto">
+          <button
+            class="w-full text-left font-bold text-lg mb-2 sm:mb-0 sm:pointer-events-none sm:cursor-default js-about-menu">
+            About Us
+          </button>
+          <ul id="about-menu" class="hidden sm:block space-y-2 text-sm">
+            <li><a href="./about.html" class="hover:underline">About Us</a></li>
+            <li><a href="./contact.html" class="hover:underline">Contact Us</a></li>
+            <!-- <li><a href="#" class="hover:underline">Our People</a></li>
               <li><a href="#" class="hover:underline">Careers</a></li> -->
-              <!-- <li><a href="#" class="hover:underline">What Our Clients Say</a></li> -->
-              <li><a href="#" class="hover:underline">Privacy Policy</a></li>
-            </ul>
-          </div>
-          <div class="w-full sm:w-auto">
-            <button onclick="toggleMenu('insurance-menu')" class="w-full text-left font-bold text-lg mb-2 sm:mb-0 sm:pointer-events-none sm:cursor-default">
-              Site Map
-            </button>
-            <ul id="insurance-menu" class="hidden sm:block space-y-2 text-sm">
-              <li><a href="index.html" class="hover:underline">Home</a></li>
-              <li><a href="applynow.html" class="hover:underline">Apply Now</a></li>
-              <li><a href="about.html" class="hover:underline">About</a></li>
-              <li><a href="join-bma.html" class="hover:underline">Join Us</a></li>
-              <li><a href="contact.html" class="hover:underline">Contact Us</a></li>
-              <li><a href="#" class="hover:underline">Broker Resources</a></li>
-            </ul>
-          </div>
+            <!-- <li><a href="#" class="hover:underline">What Our Clients Say</a></li> -->
+            <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="w-full sm:w-auto">
+          <button
+            class="w-full text-left font-bold text-lg mb-2 sm:mb-0 sm:pointer-events-none sm:cursor-default js-site-menu">
+            Site Map
+          </button>
+          <ul id="site-menu" class="hidden sm:block space-y-2 text-sm">
+            <li><a href="index.html" class="hover:underline">Home</a></li>
+            <li><a href="applynow.html" class="hover:underline">Apply Now</a></li>
+            <li><a href="about.html" class="hover:underline">About</a></li>
+            <li><a href="join-bma.html" class="hover:underline">Join Us</a></li>
+            <li><a href="contact.html" class="hover:underline">Contact Us</a></li>
+            <li><a href="#" class="hover:underline">Broker Resources</a></li>
+          </ul>
+        </div>
 
-          <!-- <div class="w-full sm:w-auto">
+        <!-- <div class="w-full sm:w-auto">
             <button onclick="toggleMenu('finance-menu')" class="w-full text-left font-bold text-lg mb-2 sm:mb-0 sm:pointer-events-none sm:cursor-default">
               Finance
             </button>
@@ -262,20 +258,23 @@
               <li><a href="#" class="hover:underline">Get Pre-Approved Finance</a></li>
             </ul>
           </div> -->
-        </div>
-        <!-- Footer Bottom -->
-        <div class="mt-8 border-t pt-4 text-center text-sm text-gray-600">
-          <p>Brokers Mutual Unit Trust ABN 28 187 241 830 (Australian Credit Licence 23489 309)</p>
-          <p>Brokers Mutual (Insurance) Pty Ltd ABN 48 0930 989283 (AFSL 512 1234)</p>
-          <p class="mt-4">© Copyright 2024 NexaWeb</p>
-        </div>
       </div>
-    </footer>
-    <div class="text-center p-2 bg-black">
-      <a href="https://nexawebdev.com" class="text-md text-white">Powered By NexaWeb</a>
+      <!-- Footer Bottom -->
+      <div class="mt-8 border-t pt-4 text-center text-sm text-gray-600">
+        <p>Brokers Mutual Unit Trust ABN 28 187 241 830 (Australian Credit Licence 23489 309)</p>
+        <p>Brokers Mutual (Insurance) Pty Ltd ABN 48 0930 989283 (AFSL 512 1234)</p>
+        <p class="mt-4">© Copyright 2024 NexaWeb</p>
+      </div>
     </div>
-    <script src="./scripts/footer-script.js"></script>
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <script src="./scripts/menu-script.js"></script>
-  </body>
+  </footer>
+  <div class="text-center p-2 bg-black">
+    <a href="https://nexawebdev.com" class="text-md text-white">Powered By NexaWeb</a>
+  </div>
+  <!-- <script src="./scripts/footer-script.js"></script> -->
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <!-- <script src="./scripts/menu-script.js"></script> -->
+  <script type="module" src="./scripts/main.js" defer></script>
+
+</body>
+
 </html>
