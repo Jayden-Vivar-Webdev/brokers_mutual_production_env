@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="./styles.css">
   <link href="./output.css" rel="stylesheet">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preload" href="./images/home-banner.png" as="image">
+
 </head>
 
 <body class="bg-gray-50">
@@ -73,7 +75,7 @@
 
       <div class="relative">
         <!-- Background Image hidden sm:flex -->
-        <img src="./images/home-banner.png" loading="lazy" alt="Banner" class="w-full h-auto">
+        <img src="./images/home-banner.png" loading="eager" alt="Banner" class="w-full h-auto">
 
         <!-- Content over the image -->
         <div class="absolute p-6 inset-0 grid grid-cols-12 items-center justify-items-center text-center ">
