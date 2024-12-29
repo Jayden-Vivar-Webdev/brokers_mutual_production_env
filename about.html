@@ -30,7 +30,7 @@
             <a href="./about.html" class="text-gray-600 hover:text-gray-800">About</a>
             <a href="./applynow.html" class="text-gray-600 hover:text-gray-800">Apply</a>
             <a href="contact.html" class="text-gray-600 hover:text-gray-800">Contact Us</a>
-            <a href="./join-bma.html" class="text-gray-600 hover:text-gray-800">Join Us</a>
+            <a href="./join.html" class="text-gray-600 hover:text-gray-800">Join Us</a>
           </div>
 
           <!-- Phone Number -->
@@ -59,7 +59,7 @@
           <a href="./about.html" class="text-gray-600 hover:text-gray-800">About</a>
           <a href="./applynow.html" class="text-gray-600 hover:text-gray-800">Apply</a>
           <a href="./contact.html" class="text-gray-600 hover:text-gray-800">Contact Us</a>
-          <a href="./join-bma.html" class="text-gray-600 hover:text-gray-800">Join Us</a>
+          <a href="./join.html" class="text-gray-600 hover:text-gray-800">Join Us</a>
           <div class="flex items-center space-x-2 text-gray-600">
             <img src="./images/call-icon.svg" alt="Call-Us">
             <span>1300 112 213</span>
@@ -80,15 +80,15 @@
         <div class="absolute p-10 inset-0 grid grid-cols-2 items-center justify-items-center text-center ">
           <!-- Text centered in the left column -->
           <div class="col-span-1 text-start items-start space-y-4 p-1 sm:p-5">
-            <h1 class="text-white text-xl sm:text-2xl md:text-3xl lg:text-5xl text-start ml-1 leading-loose">
+            <h1 class="text-white text-xl sm:text-2xl md:text-3xl lg:text-5xl text-start ml-1 leading-loose hidden-elm">
               About Brokers Mutual
             </h1>
-            <p class=" hidden sm:flex text-white text-start text-sm sm:text-base md:text-lg lg:text-xl ml-1">
+            <p class=" hidden sm:flex text-white text-start text-sm sm:text-base md:text-lg lg:text-xl ml-1 hidden-elm">
               We provide simplicity to financial solutions
             </p>
             <a href="contact.html">
               <div
-                class="hidden md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
+                class="hidden md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center hidden-elm">
                 Let Us Help You <box-icon name='right-arrow-alt' color='#fff9f9'></box-icon>
               </div>
             </a>
@@ -101,7 +101,61 @@
 
     </section>
     <section>
-      <script src="https://widget.trustmary.com/zGf_ZjpvH"></script>
+      <div class="flex flex-col justify-items-center items-center" style="padding-top: 30px;">
+        <div style="max-width: 200px;">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"
+            alt="google-icon" class="w-full h-auto object-contain hidden-elm">
+        </div>
+
+
+        <p class="font-semibold hidden-elm">Reviews</p>
+
+      </div>
+      <div class="flex flex-col lg:grid grid-cols-4 gap-10 p-10">
+
+        <div class="p-10 bg-white space-y-4 col-span-1 rounded-lg bx-shadow grid-elm hidden-elm">
+          <img src="./images/review_lynne.png" alt="review_1">
+          <div class="flex" style="color: rgb(246, 214, 11);">
+            ★★★★★
+          </div>
+          <h1 class="font-semibold">Lynne M</h1>
+          <p>Had the best experience with Stewart who organised my car in less than 3 days, with the best repayment
+            schedule. It was
+            probably the best experience I have had ever in making a purchase.</p>
+        </div>
+        <div class="p-10 bg-white space-y-4 col-span-1 rounded-lg bx-shadow grid-elm hidden-elm">
+          <img src="./images/review_fk.png" alt="review_1">
+          <div class="flex" style="color: rgb(246, 214, 11);">
+            ★★★★★
+          </div>
+          <h1 class="font-semibold">FK PLAZMA</h1>
+          <p>Stewart was absolutely amazing when I came to him for some auto finance. He is super fast a reliable. Had
+            me driving out
+            within same day.</p>
+        </div>
+        <div class="p-10 bg-white space-y-4 col-span-1 rounded-lg bx-shadow grid-elm hidden-elm">
+          <img src="./images/ACEMONEY.png" alt="review_1">
+          <div class="flex" style="color: rgb(246, 214, 11);">
+            ★★★★★
+          </div>
+          <h1 class="font-semibold">ACEMONEY</h1>
+          <p>Stewart was extremely helpful, got our loan approved throughly quickly and we most definitely recommend him
+            for your
+            finance.</p>
+        </div>
+        <div class="p-10 bg-white space-y-4 col-span-1 rounded-lg bx-shadow grid-elm hidden-elm">
+          <img src="./images/Jayden.png" alt="review_1">
+          <div class="flex" style="color: rgb(246, 214, 11);">
+            ★★★★★
+          </div>
+          <h1 class="font-semibold">Jayden Vivar</h1>
+          <p>Very professional. All the members at BMA are friendly helpful and look out for your best interest.</p>
+        </div>
+
+
+
+      </div>
     </section>
 
     <section class="p-10">
@@ -122,19 +176,22 @@
     </section>
 
     <section class="mb-4 p-10 space-y-7">
-      <h1 class="text-start text-3xl sm:text-4xl lg:text-4xl">Services</h1>
+      <h1 class="text-start text-3xl sm:text-4xl lg:text-4xl hidden-elm">Services</h1>
       <div class="rounded-lg bg-custom-blue  bx-shadow p-5">
         <div class="grid grid-cols-12 items-center">
-          <img class="col-span-12 md:col-span-6 h-auto w-full" src="./images/car-rel.png" alt="car-img">
+          <img class="col-span-12 md:col-span-6 h-auto w-full appear-image" src="./images/car-rel.png" alt="car-img">
           <div class="col-span-12 md:col-span-6">
-            <h1 class="text-4xl p-5">Car <span style="color: rgba(34, 34, 199, 0.988);">Sales</span> Loans</h1>
-            <p class="text-base sm:text-base md:text-lg lg:text-xl p-5">Securing a loan for your business vehicles can
+            <h1 class="text-4xl p-5 hidden-elm">Car <span style="color: rgba(34, 34, 199, 0.988);">Sales</span> Loans
+            </h1>
+            <p class="text-base sm:text-base md:text-lg lg:text-xl p-5 hidden-elm">Securing a loan for your business
+              vehicles can
               be a daunting process, but we're here to make it simple and stress-free.</p>
-            <p class="text-base sm:text-base md:text-lg lg:text-xl px-5 mb-5">Whether you're expanding your fleet or
+            <p class="text-base sm:text-base md:text-lg lg:text-xl px-5 mb-5 hidden-elm">Whether you're expanding your
+              fleet or
               replacing outdated vehicles, our team offers tailored solutions to meet your unique business needs.</p>
             <a href="contact.html">
               <div
-                class="md:inline-flex text-sm sm:text-1xl md:text-lg lg:text-1xl p-2 m-4 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
+                class="hidden-elm md:inline-flex text-sm sm:text-1xl md:text-lg lg:text-1xl p-2 m-4 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
                 Contact Us</box-icon>
               </div>
             </a>
@@ -142,19 +199,19 @@
         </div>
 
         <div class="flex flex-col md:grid grid-cols-4 gap-10 p-10">
-          <div>
+          <div class="hidden-elm grid-elm">
             <img class="md:col-span-1 h-12 mb-2" src="./images/lenders-icon.png" alt="lenders-icon">
             <p>Access to a large amount of lenders across Australia</p>
           </div>
-          <div>
+          <div class="hidden-elm grid-elm">
             <img class="md:col-span-1 h-12 mb-2" src="./images/easy-icon.png" alt="easy-icon">
             <p>Access to a large amount of lenders across Australia</p>
           </div>
-          <div>
+          <div class="hidden-elm grid-elm">
             <img class="md:col-span-1 h-12 mb-2" src="./images/fast-icon.png" alt="fast-icon">
             <p>Access to a large amount of lenders across Australia</p>
           </div>
-          <div>
+          <div class="hidden-elm grid-elm">
             <img class="md:col-span-1 h-12 mb-2" src="./images/options-icon.png" alt="options-icon">
             <p>Access to a large amount of lenders across Australia</p>
           </div>
@@ -164,21 +221,21 @@
     </section>
 
     <section class="mb-4 p-10 space-y-7">
-      <h1 class="text-start text-3xl sm:text-4xl lg:text-4xl">Personal Loans</h1>
+      <h1 class="text-start text-3xl sm:text-4xl lg:text-4xl hidden-elm">Personal Loans</h1>
       <div class="flex flex-col md:grid grid-cols-4 gap-10 px-10">
-        <div>
+        <div class="hidden-elm grid-elm">
           <img class="md:col-span-1 h-12 mb-2" src="./images/travel-icon.png" alt="travel-icon">
           <p>Access to a large amount of lenders across Australia</p>
         </div>
-        <div>
+        <div class="hidden-elm grid-elm">
           <img class="md:col-span-1 h-12 mb-2" src="./images/renovation-icon.png" alt="renovation-icon">
           <p>Access to a large amount of lenders across Australia</p>
         </div>
-        <div>
+        <div class="hidden-elm grid-elm">
           <img class="md:col-span-1 h-12 mb-2" src="./images/invest-icon.png" alt="invest-icon">
           <p>Access to a large amount of lenders across Australia</p>
         </div>
-        <div>
+        <div class="hidden-elm grid-elm">
           <img class="md:col-span-1 h-12 mb-2" src="./images/hobby-icon.png" alt="hobby-icon">
           <p>Access to a large amount of lenders across Australia</p>
         </div>
@@ -186,41 +243,42 @@
 
       <div class="flex flex-col-reverse md:grid grid-cols-2 px-10 py-5">
         <div>
-          <h1 class="text-2xl">Securing You Personal Loan</h1><br>
-          <p class="pr-0 md:pr-10">Securing a loan for your business vehicles can be a daunting process, but we're here
+          <h1 class="text-2xl hidden-elm">Securing You Personal Loan</h1><br>
+          <p class="pr-0 md:pr-10 hidden-elm">Securing a loan for your business vehicles can be a daunting process, but
+            we're here
             to make it simple and stress-free.<br><br>
             Whether you're expanding your fleet or replacing outdated vehicles, our team offers tailored solutions to
             meet your unique business needs.</p><br>
           <a href="contact.html">
             <div
-              class="inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
+              class="hidden-elm inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
               Contact Us</box-icon>
             </div>
           </a>
         </div>
 
-        <div class="justify-items-center pb-12">
+        <div class="justify-items-center pb-12 hidden-elm">
           <img src="./images/bma-approval-img-2.png" alt="approval-img">
         </div>
       </div>
     </section>
 
     <section class="mb-4 p-10 space-y-7">
-      <h1 class="text-start text-3xl sm:text-4xl lg:text-4xl">Assets & Equipment Loans</h1>
+      <h1 class="text-start text-3xl sm:text-4xl lg:text-4xl hidden-elm">Assets & Equipment Loans</h1>
       <div class="flex flex-col md:grid grid-cols-4 gap-10 px-10">
-        <div>
+        <div class="hidden-elm grid-elm">
           <img class="md:col-span-1 h-12 mb-2" src="./images/travel-icon.png" alt="travel-icon">
           <p>Access to a large amount of lenders across Australia</p>
         </div>
-        <div>
+        <div class="hidden-elm grid-elm">
           <img class="md:col-span-1 h-12 mb-2" src="./images/renovation-icon.png" alt="renovation-icon">
           <p>Access to a large amount of lenders across Australia</p>
         </div>
-        <div>
+        <div class="hidden-elm grid-elm">
           <img class="md:col-span-1 h-12 mb-2" src="./images/invest-icon.png" alt="invest-icon">
           <p>Access to a large amount of lenders across Australia</p>
         </div>
-        <div>
+        <div class="hidden-elm grid-elm">
           <img class="md:col-span-1 h-12 mb-2" src="./images/hobby-icon.png" alt="hobby-icon">
           <p>Access to a large amount of lenders across Australia</p>
         </div>
@@ -228,42 +286,43 @@
 
       <div class="flex flex-col-reverse md:grid grid-cols-2 px-10 py-5">
         <div>
-          <h1 class="text-2xl">Assisting With You Throughout</h1><br>
-          <p class="pr-0 md:pr-10">Securing a loan for your business vehicles can be a daunting process, but we're here
+          <h1 class="text-2xl hidden-elm">Assisting With You Throughout</h1><br>
+          <p class="pr-0 md:pr-10 hidden-elm">Securing a loan for your business vehicles can be a daunting process, but
+            we're here
             to make it simple and stress-free.
             <br><br>
             Wether your expanding you business or need more equipment, we can help.
           </p><br>
           <a href="contact.html">
             <div
-              class="inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
+              class="hidden-elm text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
               Contact Us</box-icon>
             </div>
           </a>
         </div>
 
-        <div class="justify-items-center pb-12">
+        <div class="justify-items-center pb-12 hidden-elm">
           <img src="./images/equipment-img.png" alt="equipment-img">
         </div>
       </div>
     </section>
 
     <section class="mb-4 p-10 space-y-7">
-      <h1 class="text-start text-3xl sm:text-4xl lg:text-4xl">Business Loans</h1>
+      <h1 class="text-start text-3xl sm:text-4xl lg:text-4xl hidden-elm">Business Loans</h1>
       <div class="flex flex-col md:grid grid-cols-4 gap-10 px-10">
-        <div>
+        <div class="hidden-elm grid-elm">
           <img class="md:col-span-1 h-12 mb-2" src="./images/travel-icon.png" alt="travel-icon">
           <p>Access to a large amount of lenders across Australia</p>
         </div>
-        <div>
+        <div class="hidden-elm grid-elm">
           <img class="md:col-span-1 h-12 mb-2" src="./images/renovation-icon.png" alt="renovation-icon">
           <p>Access to a large amount of lenders across Australia</p>
         </div>
-        <div>
+        <div class="hidden-elm grid-elm">
           <img class="md:col-span-1 h-12 mb-2" src="./images/invest-icon.png" alt="invest-icon">
           <p>Access to a large amount of lenders across Australia</p>
         </div>
-        <div>
+        <div class="hidden-elm grid-elm">
           <img class="md:col-span-1 h-12 mb-2" src="./images/hobby-icon.png" alt="hobby-icon">
           <p>Access to a large amount of lenders across Australia</p>
         </div>
@@ -271,27 +330,28 @@
 
       <div class="flex flex-col-reverse md:grid grid-cols-2 px-10 py-5">
         <div>
-          <h1 class="text-2xl">Assisting With You Throughout</h1><br>
-          <p class="pr-0 md:pr-10">Securing a loan for your business vehicles can be a daunting process, but we're here
+          <h1 class="text-2xl hidden-elm">Assisting With You Throughout</h1><br>
+          <p class="pr-0 md:pr-10 hidden-elm">Securing a loan for your business vehicles can be a daunting process, but
+            we're here
             to make it simple and stress-free.
             <br><br>
             Wether your expanding you business or need more equipment, we can help.
           </p><br>
           <a href="contact.html">
             <div
-              class="inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
+              class=" hidden-elm text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
               Contact Us</box-icon>
             </div>
           </a>
         </div>
 
-        <div class="justify-items-center pb-12">
+        <div class="justify-items-center pb-12 hidden-elm">
           <img src="./images/bma-business-loan-img.png" alt="equipment-img">
         </div>
       </div>
     </section>
 
-    <section class="p-10">
+    <section class="p-10 appear-image">
       <div
         class=" gap-4 mt-4 p-10 adjacent-rd bx-shadow space-y-7 items-center justify-items-center bg-custom-blue-bright">
         <h1 class="sm:col-span-1 text-center font-semibold text-xl sm:text-2xl lg:text-3xl text-white">
@@ -306,36 +366,39 @@
       <div class="rounded-lg bg-custom-blue  bx-shadow p-5">
         <div class="grid grid-cols-12 items-center">
           <div class="col-span-12 md:col-span-6">
-            <h1 class="text-4xl p-5">Partnered <span style="color: rgba(34, 34, 199, 0.988);">Providers</span></h1>
-            <p class="text-base sm:text-base md:text-lg lg:text-xl p-5">When you join BMA you will have access to our
+            <h1 class="text-4xl p-5 hidden-elm">Partnered <span
+                style="color: rgba(34, 34, 199, 0.988);">Providers</span></h1>
+            <p class="text-base sm:text-base md:text-lg lg:text-xl p-5 hidden-elm">When you join BMA you will have
+              access to our
               resources, we will connect you with our most valuable lenders.</p>
-            <p class="text-base sm:text-base md:text-lg lg:text-xl px-5 mb-5">No need to worry about leads we can
+            <p class="text-base sm:text-base md:text-lg lg:text-xl px-5 mb-5 hidden-elm">No need to worry about leads we
+              can
               provide them for you in a way that allows you to focus on a broker centric approach.</p>
             <div
-              class="hidden md:inline-flex text-sm sm:text-1xl md:text-lg lg:text-1xl p-2 m-4 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
+              class="hidden-elm hidden md:inline-flex text-sm sm:text-1xl md:text-lg lg:text-1xl p-2 m-4 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
               Contact Us</box-icon>
             </div>
           </div>
-          <div class="col-span-12 md:col-span-6 justify-items-center">
+          <div class="col-span-12 md:col-span-6 justify-items-center hidden-elm">
             <img class="object-contain rounded-lg" src="./images/lenders-tile-grid.png" alt="featured-icon-img">
           </div>
 
         </div>
 
         <div class="flex flex-col md:grid grid-cols-4 gap-10 p-10">
-          <div>
+          <div class="hidden-elm grid-elm">
             <img class="md:col-span-1 h-12 mb-2" src="./images/westpack.png" alt="westpack-icon">
             <p>Access to a large amount of lenders across Australia</p>
           </div>
-          <div>
+          <div class="hidden-elm grid-elm">
             <img class="md:col-span-1 h-12 mb-2" src="./images/ANZ-Logo.png" alt="Anz-icon">
             <p>Access to a large amount of lenders across Australia</p>
           </div>
-          <div>
+          <div class="hidden-elm grid-elm">
             <img class="md:col-span-1 h-12 mb-2" src="./images/cba-logo.png" alt="cba-icon">
             <p>Access to a large amount of lenders across Australia</p>
           </div>
-          <div>
+          <div class="hidden-elm grid-elm">
             <img class="md:col-span-1 h-12 mb-2" src="./images/St.George_Bank_logo.png.webp" alt="st-george-icon">
             <p>Access to a large amount of lenders across Australia</p>
           </div>
@@ -380,7 +443,7 @@
             <li><a href="index.html" class="hover:underline">Home</a></li>
             <li><a href="applynow.html" class="hover:underline">Apply Now</a></li>
             <li><a href="about.html" class="hover:underline">About</a></li>
-            <li><a href="join-bma.html" class="hover:underline">Join Us</a></li>
+            <li><a href="join.html" class="hover:underline">Join Us</a></li>
             <li><a href="contact.html" class="hover:underline">Contact Us</a></li>
             <li><a href="#" class="hover:underline">Broker Resources</a></li>
           </ul>
