@@ -40,5 +40,21 @@ window.addEventListener('load', () => {
 });
 
 
+// Pop-up Function 
+const openPopup = document.getElementById('open-popup');
+const closePopUp = document.getElementById('close-popup')
+const popup = document.getElementById('popup');
+const bodyoverflow = document.getElementById('body-overflow');
+
+openPopup.addEventListener('click', () => {
+    popup.classList.remove('hidden');
+    bodyoverflow.classList.add('overflow-y-hidden');
+});
+
+closePopUp.addEventListener('click', () => {
+    popup.classList.add('hidden');
+    bodyoverflow.classList.remove('overflow-y-hidden');
+});
+
 
 

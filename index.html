@@ -12,7 +12,34 @@
 
 </head>
 
-<body class="bg-gray-50">
+<body class="bg-gray-50" id="body-overflow">
+
+  <div class="hidden fixed inset-0 bg-black bg-opacity-45 z-50 flex items-center justify-center p-10" id="popup">
+    <div class="bg-white p-6 rounded-lg shadow-lg max-w-full max-h-full overflow-hidden">
+      <!-- Close Button -->
+
+
+      <div class="space-y-5 p-5">
+        <div class="absolute top-12 right-14 cursor-pointer text-xl font-bold" id="close-popup">X</div>
+        <h1 class="text-black text-2xl">Car Loans</h1>
+        <p class="text-black">
+          Car loans can be a helpful way to finance a vehicle, but always watch out for hidden fees and high-interest
+          rates. It's
+          worth comparing lenders and reading the fine print to avoid paying more than necessary over time!
+        </p>
+        <div
+          class="col-span-2 bg-black text-white inline-flex p-2 w-fit text-center text-xl rounded-lg px-5 py-3 text-1xl hidden-elm">
+          Contact Us
+        </div>
+      </div>
+
+      <!-- Iframe -->
+      <iframe src="./contact.html" class="hidden md:flex w-full h-[60vh] sm:h-[70vh] lg:h-[80vh]"></iframe>
+    </div>
+  </div>
+
+
+
   <header>
     <!-- Navbar -->
     <nav class="bg-white shadow-md">
@@ -71,8 +98,6 @@
   </header>
   <main>
     <section>
-
-
       <div class="relative">
         <!-- Background Image hidden sm:flex -->
         <img src="./images/home-banner.png" loading="eager" alt="Banner" class="w-full h-auto">
@@ -100,13 +125,17 @@
       </div>
 
     </section>
+
+
+
     <section class="mt-4 p-10 space-y-7">
       <h1 class="text-start text-3xl sm:text-4xl lg:text-5xl hidden-elm">Conneting You With The Perfect Loan</h1>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4 items-center">
-        <div class="grid-elm widget px-6 py-5 bx-shadow rounded-lg justify-items-center hidden-elm">
+        <div class="grid-elm widget px-6 py-5 bx-shadow rounded-lg justify-items-center hidden-elm" id="open-popup">
           <img src="./images/car-loan.png" loading="lazy" class="lg:w-3/4 xl:w-2/4 center-item" alt="car-img">
           <h2 class="text-center">Car Loans</h2>
         </div>
+
         <div class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center hidden-elm grid-elm">
           <img src="./images/boat-loan.png" loading="lazy" class="lg:w-3/4 xl:w-2/4 center-item" alt="boat-img">
           <h2 class="text-center">Boat Loans</h2>
