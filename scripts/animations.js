@@ -1,3 +1,8 @@
+/**
+ * Multiplies two numbers.
+ * @param {divElement} element - The first number.
+ * @param {maxNum} limit - The second number.
+ */
 export function countup(element, limit) {
     let i = 1;
     const interval = setInterval(() => {

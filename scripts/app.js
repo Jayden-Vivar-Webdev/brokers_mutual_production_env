@@ -8,8 +8,6 @@ export function toggleVisibility(toggleClass, toggleId, toggleVisible = "hidden"
     });
 }
 
-
-
 //Appearing elements function 
 export const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {

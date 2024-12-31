@@ -112,10 +112,12 @@
             <p class="text-white text-start text-sm sm:text-base md:text-lg lg:text-xl ml-1 hidden sm:flex">
               Allow Brokers Mutual to provide you with services. We make finance simple.
             </p>
-            <div
-              class="hidden md:inline-flex text-sm sm:text-1xl md:text-lg lg:text-1xl  p-2 px-3 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
-              See How We Can Help <box-icon name='right-arrow-alt' color='#fff9f9'></box-icon>
-            </div>
+            <a href="contact.html">
+              <div
+                class="hidden md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center hidden-elm">
+                See How We Can Help <box-icon name='right-arrow-alt' color='#fff9f9'></box-icon>
+              </div>
+            </a>
           </div>
           <div class="col-span-1"></div>
           <!-- Image centered in the right column -->
@@ -130,21 +132,22 @@
 
     <section class="mt-4 p-10 space-y-7">
       <h1 class="text-start text-3xl sm:text-4xl lg:text-5xl hidden-elm">Conneting You With The Perfect Loan</h1>
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 items-center">
-        <div class="grid-elm widget px-6 py-5 bx-shadow rounded-lg justify-items-center hidden-elm" id="open-popup">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-10 items-center">
+
+        <div data-name="car-loan" class="grid-elm widget px-6 py-5 bx-shadow rounded-lg justify-items-center hidden-elm js-open-popup" >
           <img src="./images/car-loan.png" loading="lazy" class="lg:w-3/4 xl:w-2/4 center-item" alt="car-img">
           <h2 class="text-center">Car Loans</h2>
         </div>
 
-        <div class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center hidden-elm grid-elm">
+        <div data-name="boat-loan" class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center hidden-elm grid-elm js-open-popup">
           <img src="./images/boat-loan.png" loading="lazy" class="lg:w-3/4 xl:w-2/4 center-item" alt="boat-img">
           <h2 class="text-center">Boat Loans</h2>
         </div>
-        <div class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center hidden-elm grid-elm">
+        <div data-name="jetski-loan" class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center hidden-elm grid-elm js-open-popup">
           <img src="./images/jetski-loan.png" loading="lazy" class="lg:w-3/4 xl:w-2/4 center-item" alt="jetski-img">
           <h2 class="text-center">Jetski Loans</h2>
         </div>
-        <div class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center hidden-elm grid-elm">
+        <div data-name="truck-loan" class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center hidden-elm grid-elm js-open-popup">
           <img src="./images/truck-loan.png" loading="lazy" class="lg:w-3/4 xl:w-2/4 center-item" alt="truck-img">
           <h2 class="text-center">Truck Loans</h2>
         </div>
@@ -202,19 +205,19 @@
         <h1 class="text-start text-3xl sm:text-4xl lg:text-5xl hidden-elm">Personal Loans With Mutiple Lenders</h1>
         <div class="grid grid-cols-3 gap-4">
 
-          <div
-            class="col-span-3 sm:col-span-1 justify-items-center items-center bx-shadow rounded-lg p-5 bg-white widget hidden-elm">
+          <div data-name="personal-loan"
+            class="col-span-3 sm:col-span-1 justify-items-center items-center bx-shadow rounded-lg p-5 bg-white widget hidden-elm js-open-popup" >
             <img src="./images/approval.png" loading="lazy" alt="img-display-1">
             <p class="text-xl text-center">Personal Loans</p>
           </div>
 
-          <div
-            class="col-span-3 sm:col-span-1 justify-items-center items-center bx-shadow rounded-lg p-5 bg-white widget hidden-elm">
+          <div data-name="home-loan"
+            class="col-span-3 sm:col-span-1 justify-items-center items-center bx-shadow rounded-lg p-5 bg-white widget hidden-elm js-open-popup">
             <img src="./images/bma-approval.png" loading="lazy" alt="img-display-2">
             <p class="text-xl text-center">Home Loans</p>
           </div>
-          <div
-            class="col-span-3 sm:col-span-1 justify-items-center items-center bx-shadow rounded-lg p-5 bg-white widget hidden-elm">
+          <div data-name="business-loan"
+            class="col-span-3 sm:col-span-1 justify-items-center items-center bx-shadow rounded-lg p-5 bg-white widget hidden-elm js-open-popup">
             <img src="./images/commercial.png" loading="lazy" alt="img-display-3">
             <p class="text-xl text-center">Business Loans</p>
           </div>
