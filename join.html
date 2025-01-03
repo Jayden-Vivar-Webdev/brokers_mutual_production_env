@@ -11,7 +11,20 @@
 
 </head>
 
-<body class="bg-gray-50">
+<body class="bg-gray-50" id="body-overflow">
+
+  <div class="hidden fixed inset-0 bg-black bg-opacity-45 z-50 flex items-center justify-center p-10" id="popup">
+    <div class="bg-white p-6 rounded-lg shadow-lg max-w-full max-h-full overflow-hidden">
+      <!-- Close Button -->
+
+
+      <div class="space-y-5 p-5">
+        <div class="absolute top-12 right-14 cursor-pointer text-xl font-bold" id="close-popup">X</div>
+        
+      </div>
+    </div>
+  </div>
+  
   <header>
     <!-- Navbar -->
     <nav class="bg-white shadow-md">
@@ -76,7 +89,7 @@
         <img src="./images/join-bma-banner.png" alt="Banner" class="w-full h-auto">
 
         <!-- Content over the image -->
-        <div class="absolute p-10 inset-0 grid grid-cols-2 items-center justify-items-center text-center">
+        <div class="absolute p-5 lg:10 inset-0 grid grid-cols-2 items-center justify-items-center text-center">
           <!-- Text centered in the left column -->
           <div class="col-span-1 text-start items-start space-y-4 p-5 sm:p-10">
             <h1 class="text-white text-xl sm:text-2xl md:text-3xl lg:text-5xl text-start ml-1 leading-loose hidden-elm">
@@ -96,25 +109,29 @@
 
     </section>
     <section class="mt-4 p-10 space-y-7">
-      <h1 class="text-start text-3xl sm:text-4xl lg:text-5xl">Conneting You With Resources</h1>
+      <h1 class="text-start text-3xl sm:text-4xl lg:text-5xl hidden-elm">Conneting You With The Source</h1>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-10 items-center">
-        <div class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center">
-          <img src="./images/car-loan.png" class="lg:w-3/4 xl:w-2/4 center-item" alt="car-img">
+
+        <div data-name="crm-access" class="grid-elm widget px-6 py-5 bx-shadow rounded-lg justify-items-center hidden-elm js-open-popup" >
+          <img src="./images/crm-access.png" loading="lazy" class="lg:w-3/4 xl:w-2/4 center-item" alt="CRM-img">
           <h2 class="text-center">CRM Access</h2>
         </div>
-        <div class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center ">
-          <img src="./images/boat-loan.png" class="lg:w-3/4 xl:w-2/4 center-item" alt="boat-img">
-          <h2 class="text-center">Mentoring</h2>
-        </div>
-        <div class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center">
-          <img src="./images/jetski-loan.png" class="lg:w-3/4 xl:w-2/4 center-item" alt="jetski-img">
+
+        <div data-name="api-access" class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center hidden-elm grid-elm js-open-popup">
+          <img src="./images/api-acces.png" loading="lazy" class="lg:w-3/4 xl:w-2/4 center-item" alt="API-img">
           <h2 class="text-center">API Access</h2>
         </div>
-        <div class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center">
-          <img src="./images/truck-loan.png" class="lg:w-3/4 xl:w-2/4 center-item" alt="truck-img">
-          <h2 class="text-center">24/7 Support</h2>
+        <div data-name="mentoring" class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center hidden-elm grid-elm js-open-popup">
+          <img src="./images/mentoring.png" loading="lazy" class="lg:w-3/4 xl:w-2/4 center-item" alt="jetski-img">
+          <h2 class="text-center">Mentoring</h2>
         </div>
+        <div data-name="support" class="widget px-6 py-5 bx-shadow rounded-lg justify-items-center hidden-elm grid-elm js-open-popup">
+          <img src="./images/support.png" loading="lazy" class="lg:w-3/4 xl:w-2/4 center-item" alt="truck-img">
+          <h2 class="text-center">Support</h2>
+        </div>
+
       </div>
+
     </section>
 
     <section class="p-10">

@@ -65,14 +65,10 @@ openPopup.forEach(element => {
                 <p class="text-black">
                 ${description}
                 </p>
-                <div
-                class="col-span-2 bg-black text-white inline-flex p-2 w-fit text-center text-xl rounded-lg px-5 py-3 text-1xl hidden-elm">
-                Contact Us
-                </div>
+                
             </div>
 
-            <iframe src="./contact.html" class="hidden md:flex w-full h-[60vh] sm:h-[70vh] lg:h-[80vh]"></iframe>
-            </div>
+            
             `
             popup.classList.remove('hidden');
             bodyoverflow.classList.add('overflow-y-hidden');
