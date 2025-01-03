@@ -59,8 +59,8 @@ openPopup.forEach(element => {
             `
             <div class="bg-white p-6 rounded-lg shadow-lg max-w-full max-h-full overflow-hidden">
 
-            <div class="space-y-5 p-5">
-                <div class="absolute top-12 right-14 cursor-pointer text-xl font-bold" id="close-popup">X</div>
+            <div class="space-y-5 p-5 relative">
+                <div class="absolute align-top-right cursor-pointer text-xl font-bold" id="close-popup">X</div>
                 <h1 class="text-black text-2xl">${title}</h1>
                 <p class="text-black">
                 ${description}
