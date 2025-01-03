@@ -325,51 +325,57 @@
 
       </div>
     </section>
-    <section class="h-20 bg-black text-white text-center justify-center flex items-center">
-      Zapier Join Now Form section
-    </section>
-
-    <section class="mb-4 p-10 space-y-7">
-      <div class="rounded-lg bg-custom-blue  bx-shadow p-5">
-        <div class="grid grid-cols-12 items-center">
-          <div class="col-span-12 md:col-span-6">
-            <h1 class="text-4xl p-5">Partnered <span style="color: rgba(34, 34, 199, 0.988);">Providers</span></h1>
-            <p class="text-base sm:text-base md:text-lg lg:text-xl p-5">When you join BMA you will have access to our
-              resources, we will connect you with our most valuable lenders.</p>
-            <p class="text-base sm:text-base md:text-lg lg:text-xl px-5 mb-5">No need to worry about leads we can
-              provide them for you in a way that allows you to focus on a broker centric approach.</p>
-            <div
-              class="hidden md:inline-flex text-sm sm:text-1xl md:text-lg lg:text-1xl p-2 m-4 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
-              Contact Us</box-icon>
-            </div>
+    
+    <section class="bg-[##88bdff] md:py-10 lg:py-16">
+      <div class="max-w-3xl mx-auto bg-white p-10 rounded-lg shadow-xl">
+        <h2 class="text-4xl font-extrabold text-center text-gray-800 mb-8">Get in Touch</h2>
+        <p class="text-center text-gray-600 mb-8">We'd love to hear from you. Please fill out the form below and we'll get back to you shortly.</p>
+    
+        <form action="#" method="POST">
+          <!-- Full Name -->
+          <div class="mb-6">
+            <label for="full-name" class="block text-lg font-semibold text-gray-700">Full Name</label>
+            <input type="text" id="full-name" name="full-name" required
+              class="w-full px-6 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-indigo-500 focus:outline-none">
           </div>
-          <div class="col-span-12 md:col-span-6 justify-items-center">
-            <img class="object-contain rounded-lg" src="./images/lenders-tile-grid.png" alt="featured-icon-img">
+      
+          <!-- Phone Number -->
+          <div class="mb-6">
+            <label for="phone" class="block text-lg font-semibold text-gray-700">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required
+              class="w-full px-6 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-indigo-500 focus:outline-none">
           </div>
-
-        </div>
-
-        <div class="flex flex-col md:grid grid-cols-4 gap-10 p-10">
-          <div>
-            <img class="md:col-span-1 h-12 mb-2" src="./images/westpack.png" alt="westpack-icon">
-            <p>Access to a large amount of lenders across Australia</p>
+      
+          <!-- Email Address -->
+          <div class="mb-6">
+            <label for="email" class="block text-lg font-semibold text-gray-700">Email Address</label>
+            <input type="email" id="email" name="email" required
+              class="w-full px-6 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-indigo-500 focus:outline-none">
           </div>
-          <div>
-            <img class="md:col-span-1 h-12 mb-2" src="./images/ANZ-Logo.png" alt="Anz-icon">
-            <p>Access to a large amount of lenders across Australia</p>
+      
+          <!-- Comments -->
+          <div class="mb-6">
+            <label for="comments" class="block text-lg font-semibold text-gray-700">Your Message</label>
+            <textarea id="comments" name="comments" rows="6" required
+              class="w-full px-6 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-indigo-500 focus:outline-none"></textarea>
           </div>
-          <div>
-            <img class="md:col-span-1 h-12 mb-2" src="./images/cba-logo.png" alt="cba-icon">
-            <p>Access to a large amount of lenders across Australia</p>
+      
+          <!-- reCAPTCHA -->
+          <div class="mb-6">
+            <div class="g-recaptcha" data-sitekey="your-site-key-here"></div>
           </div>
-          <div>
-            <img class="md:col-span-1 h-12 mb-2" src="./images/St.George_Bank_logo.png.webp" alt="st-george-icon">
-            <p>Access to a large amount of lenders across Australia</p>
+      
+          <!-- Submit Button -->
+          <div class="text-center">
+            <button type="submit"
+              class="px-8 py-3 bg-indigo-600 text-white text-lg font-semibold rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">Submit</button>
           </div>
-
-        </div>
+        </form>
       </div>
     </section>
+
+
+    
 
   </main>
 
