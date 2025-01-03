@@ -2,6 +2,7 @@ import { countup } from "./animations.js";
 import { toggleVisibility, observer } from './app.js'
 import { loanInfo } from "./loan-info.js";
 
+
 // Variables
 const menuBtn = document.getElementById("menu-btn");
 const mobileMenu = document.getElementById("mobile-menu");
@@ -86,4 +87,10 @@ openPopup.forEach(element => {
 });
 
 
-
+// main.js
+function nextStep(currentStepId, nextStepId) {
+    document.getElementById(currentStepId).classList.add('hidden');
+    document.getElementById(nextStepId).classList.remove('hidden');
+}
+// Attach to window to make it globally available
+window.nextStep = nextStep;

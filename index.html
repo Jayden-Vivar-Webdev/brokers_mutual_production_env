@@ -203,7 +203,7 @@
     <section class="mt-4 p-10 space-y-7">
       <div class="space-y-7">
         <h1 class="text-start text-3xl sm:text-4xl lg:text-5xl hidden-elm">Personal Loans With Mutiple Lenders</h1>
-        <div class="grid grid-cols-3 gap-4">
+        <div class="grid grid-cols-3 gap-10">
 
           <div data-name="personal-loan"
             class="col-span-3 sm:col-span-1 justify-items-center items-center bx-shadow rounded-lg p-5 bg-white widget hidden-elm js-open-popup" >
@@ -225,8 +225,52 @@
       </div>
     </section>
 
-    <section class="h-20 bg-black text-white text-center justify-center flex items-center hidden-elm">
-      Zapier Contact Form section
+    <section class="bg-[##88bdff] py-16">
+      <div class="max-w-3xl mx-auto bg-white p-10 rounded-lg shadow-xl">
+        <h2 class="text-4xl font-extrabold text-center text-gray-800 mb-8">Get in Touch</h2>
+        <p class="text-center text-gray-600 mb-8">We'd love to hear from you. Please fill out the form below and we'll get back to you shortly.</p>
+    
+        <form action="#" method="POST">
+          <!-- Full Name -->
+          <div class="mb-6">
+            <label for="full-name" class="block text-lg font-semibold text-gray-700">Full Name</label>
+            <input type="text" id="full-name" name="full-name" required
+              class="w-full px-6 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-indigo-500 focus:outline-none">
+          </div>
+      
+          <!-- Phone Number -->
+          <div class="mb-6">
+            <label for="phone" class="block text-lg font-semibold text-gray-700">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required
+              class="w-full px-6 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-indigo-500 focus:outline-none">
+          </div>
+      
+          <!-- Email Address -->
+          <div class="mb-6">
+            <label for="email" class="block text-lg font-semibold text-gray-700">Email Address</label>
+            <input type="email" id="email" name="email" required
+              class="w-full px-6 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-indigo-500 focus:outline-none">
+          </div>
+      
+          <!-- Comments -->
+          <div class="mb-6">
+            <label for="comments" class="block text-lg font-semibold text-gray-700">Your Message</label>
+            <textarea id="comments" name="comments" rows="6" required
+              class="w-full px-6 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-indigo-500 focus:outline-none"></textarea>
+          </div>
+      
+          <!-- reCAPTCHA -->
+          <div class="mb-6">
+            <div class="g-recaptcha" data-sitekey="your-site-key-here"></div>
+          </div>
+      
+          <!-- Submit Button -->
+          <div class="text-center">
+            <button type="submit"
+              class="px-8 py-3 bg-indigo-600 text-white text-lg font-semibold rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">Submit</button>
+          </div>
+        </form>
+      </div>
     </section>
 
     <section class="mt-4 p-10 space-y-7">
