@@ -83,10 +83,38 @@ openPopup.forEach(element => {
 });
 
 
-// main.js
+
 function nextStep(currentStepId, nextStepId) {
+  const form = document.getElementById(currentStepId);
+
+  // Check if the form is valid
+  if (form.checkValidity()) {
+    // If valid, move to the next step
     document.getElementById(currentStepId).classList.add('hidden');
     document.getElementById(nextStepId).classList.remove('hidden');
+    
+  } else {
+    // Trigger form validation feedback
+    form.reportValidity();
+  }
 }
-// Attach to window to make it globally available
 window.nextStep = nextStep;
+
+function backStep(currentStepId, previousStepId) {
+    document.getElementById(currentStepId).classList.add('hidden');
+    document.getElementById(previousStepId).classList.remove('hidden');
+}
+
+window.backStep = backStep;
+
+
+document.getElementById('js-price').addEventListener('input', calculateLoanAmount)
+document.getElementById('js-deposit').addEventListener('input', calculateLoanAmount)
+
+function calculateLoanAmount() {
+    const vehiclePrice = parseFloat(document.getElementById('js-price').value) || 0;
+    const deposit = parseFloat(document.getElementById('js-deposit').value) || 0;
+    const totalLoan = vehiclePrice - deposit;
+    document.getElementById('js-total-loan').textContent = totalLoan >= 0 ? `$${totalLoan.toFixed(2)}` : `$${0}`;
+
+}
