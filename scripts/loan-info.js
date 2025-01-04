@@ -17,7 +17,8 @@ export const loanInfo = {
     reliable car loan options that get you on the road quickly and affordably. 
 
       <a href="applynow.html">
-        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
+        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 
+        bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
             Apply Now 
         </div>
       </a>
@@ -41,7 +42,8 @@ export const loanInfo = {
     best solution. Trust us to make your boat ownership experience smooth and worry-free 
     by securing the best loan terms available in the market. 
       <a href="applynow.html">
-        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
+        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 
+        px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
             Apply Now 
         </div>
       </a>`
@@ -62,7 +64,8 @@ export const loanInfo = {
     providing you with the best financial solution. Whether you need a work truck or a personal 
     vehicle, choose us for reliable and efficient truck loan financing.
       <a href="applynow.html">
-        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
+        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 
+        px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
             Apply Now 
         </div>
       </a>`
@@ -82,7 +85,8 @@ export const loanInfo = {
       no hidden fees, and a commitment to providing you with the most affordable loan terms available. 
       Let us help you make your jetski dreams a reality with the best loan options in the market. 
       <a href="applynow.html">
-        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
+        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 
+        bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
             Apply Now 
         </div>
       </a>`
@@ -103,7 +107,8 @@ export const loanInfo = {
     possible loan options. Choose us for a personal loan experience that is straightforward, affordable, 
     and tailored to your needs.
       <a href="contact.html">
-        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
+        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 
+        bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
             Contact Us 
         </div>
       </a>`
@@ -126,7 +131,8 @@ export const loanInfo = {
     surprises along the way. Let us help you finance the home of your dreams with 
     the best loan solutions available.
       <a href="contact.html">
-        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
+        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 
+        bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
             Contact Us 
         </div>
       </a>`
@@ -148,7 +154,8 @@ export const loanInfo = {
      application process and find the best loan terms. Trust us to be your partner 
      in business growth with reliable and affordable financing solutions.
       <a href="contact.html">
-        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
+        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 
+        bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
             Contact Us 
         </div>
       </a>`
@@ -163,12 +170,14 @@ export const loanInfo = {
     innovative solutions for managing customer relationships effectively.
     
      <a href="https://financeable.com.au/">
-        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
+        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 
+        bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
             See Financable 
         </div>
     </a>
     <a href="contact.html">
-        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
+        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 
+        bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
             Join Us 
         </div>
     </a>
@@ -185,7 +194,8 @@ export const loanInfo = {
     applications and loan approvals. This automation reduces manual work, 
     improves accuracy, and accelerates response times in financial services.
       <a href="contact.html">
-        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
+        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 
+        bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
            Join Us  
         </div>
     </a>
@@ -200,7 +210,8 @@ export const loanInfo = {
     challenges quickly and effectively. This approach fosters a productive environment 
     where team members feel empowered and equipped to succeed in their roles. 
       <a href="contact.html">
-        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
+        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 
+        bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
             Join Us 
         </div>
     </a>
@@ -215,7 +226,8 @@ export const loanInfo = {
     confidence, and enhances skills, creating a supportive environment 
     where team members are encouraged to reach their full potential.
       <a href="contact.html">
-        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
+        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 
+        bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
             Join Us  
         </div>
     </a>
