@@ -128,8 +128,8 @@ main {
 .hidden-elm {
   opacity: 0;
   filter: blur(2px);
-  transform: translateY(+100%);
-  transition: all 0.5s;
+  transform: translateY(+20%);
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .show {
