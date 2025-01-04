@@ -162,19 +162,10 @@ export const loanInfo = {
   },
   "crm-access": {
     title: 'Customer Relationship Management',
-    description: ` Access Financeable's customer relationship management (CRM) 
-    tools to streamline and centralize all your customer interactions in one place. 
-    <br><br>With the Financeable API, you can send requests to exposed endpoints, enabling s
-    eamless integration and automation of customer engagement processes.
-    <br><br>Simplify your workflows and enhance efficiency by leveraging Financeable's 
-    innovative solutions for managing customer relationships effectively.
+    description: ` Unlock the power of Financeable's Customer Relationship Management (CRM) tools to centralize and streamline all your customer interactions in one unified platform.
+<br><br> With the Financeable API, you can effortlessly connect to exposed endpoints, enabling seamless integration and automation of your customer engagement processes.
+<br><br> Enhance your workflows and boost efficiency by leveraging Financeable's innovative solutions to manage customer relationships more effectively, simplifying your operations and improving your customer experience.
     
-     <a href="https://financeable.com.au/">
-        <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 
-        bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
-            See Financable 
-        </div>
-    </a>
     <a href="contact.html">
         <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 
         bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
@@ -185,14 +176,9 @@ export const loanInfo = {
   },
   "api-access": {
     title: 'Application Programming Interface',
-    description: ` An API (Application Programming Interface) allows different 
-    software systems to communicate with each other. 
-    A financial API can automate processes like credit rating assessments 
-    and lender requirements by connecting to databases and systems in real time. <br><br>
-    It helps streamline data retrieval, scoring models, and decision-making 
-    workflows, enabling faster, more efficient evaluations for credit 
-    applications and loan approvals. This automation reduces manual work, 
-    improves accuracy, and accelerates response times in financial services.
+    description: ` An API (Application Programming Interface) enables seamless communication between different software systems.
+<br><br> A financial API can automate key processes, such as credit rating assessments and lender requirements, by connecting to databases and systems in real time. This integration streamlines data retrieval, scoring models, and decision-making workflows, enabling faster, more accurate evaluations for credit applications and loan approvals.
+<br><br> By reducing manual tasks, improving accuracy, and accelerating response times, financial APIs enhance the efficiency and effectiveness of financial services.
       <a href="contact.html">
         <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 
         bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
@@ -203,12 +189,8 @@ export const loanInfo = {
   },
   "support": {
     title: 'Support',
-    description: ` BMA provides robust support to their team by offering timely 
-    resources, guidance, and training whenever needed. <br> <br>Whether it’s through 
-    dedicated help desks, access to expert advisors, or internal tools, 
-    BMA ensures that their team has the necessary support to resolve 
-    challenges quickly and effectively. This approach fosters a productive environment 
-    where team members feel empowered and equipped to succeed in their roles. 
+    description: ` BMA offers exceptional support to its team by providing timely resources, expert guidance, and continuous training.
+<br><br> Whether through dedicated help desks, access to expert advisors, or cutting-edge internal tools, BMA ensures that team members have the support they need to address challenges efficiently. This commitment cultivates a productive environment where team members feel empowered, equipped, and confident in their ability to succeed.
       <a href="contact.html">
         <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 
         bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
@@ -219,12 +201,8 @@ export const loanInfo = {
   },
   "mentoring": {
     title: 'Mentoring',
-    description: ` BMA offers strong mentoring programs to guide team 
-    members in their professional development. Experienced mentors 
-    provide personalized advice, share industry insights, and help 
-    mentees navigate challenges. <br><br>This mentorship fosters growth, builds 
-    confidence, and enhances skills, creating a supportive environment 
-    where team members are encouraged to reach their full potential.
+    description: ` BMA offers comprehensive mentoring programs designed to support the professional growth of team members. Experienced mentors provide tailored guidance, sharing valuable industry insights and helping mentees overcome challenges.
+<br><br> This mentorship nurtures personal and professional development, building confidence, refining skills, and fostering growth. With a supportive environment, team members are empowered to reach their full potential and achieve lasting success.
       <a href="contact.html">
         <div class=" md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 
         bg-blue-600 rounded-full text-white inline-flex justify-center items-center">
