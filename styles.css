@@ -138,6 +138,18 @@ main {
   transform: translateY(0);
 }
 
+
+@media (prefers-reduced-motion: reduce) {
+  .hidden-elm,
+  .show {
+      transition: none !important;
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+
+
 .grid-elm:nth-child(2) {
   transition-delay: 100ms;
 }
