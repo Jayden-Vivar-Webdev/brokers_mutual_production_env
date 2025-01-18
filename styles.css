@@ -8,6 +8,8 @@
   --font-span-blue: #1b30e7
 }
 
+
+
 .center-item {
   margin: auto;
 }
@@ -16,9 +18,10 @@ body {
   font-family: "Poppins", serif !important;
   font-weight: 320;
   font-style: normal;
+  
 }
 main {
-  max-width: px;
+  max-width: 1600px;
   /* or whatever max width you want */
   margin: 0 auto;
   /* centers content */
@@ -105,7 +108,7 @@ main {
   width: 100%;
   height: 13vh;
   /* or any desired height */
-  background-image: url('./images/lenders-list.png');
+  background-image: url('./assets/images/lenders-list.png');
   background-repeat: repeat-x;
   /* Repeat horizontally */
   background-size: auto 100%;
@@ -139,14 +142,14 @@ main {
 }
 
 
-@media (prefers-reduced-motion: reduce) {
+/* @media (prefers-reduced-motion: reduce) {
   .hidden-elm,
   .show {
       transition: none !important;
       opacity: 1;
       transform: translateY(0);
   }
-}
+} */
 
 
 
