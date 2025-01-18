@@ -151,7 +151,9 @@ main {
   }
 } */
 
-
+.border-round{
+  border-radius: 20px;
+}
 
 .grid-elm:nth-child(2) {
   transition-delay: 100ms;
