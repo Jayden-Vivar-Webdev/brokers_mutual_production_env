@@ -37,15 +37,16 @@ function popUp(openPopup){
                     const popupElm = document.getElementById('popup')
                     popupElm.innerHTML =
                     `
-                    <div class="bg-white p-5 rounded-lg shadow-lg max-w-[60rem] h-[70vh] md:h-[45vh]" style="overflow: overlay;">
+                    <div class="bg-white p-5 rounded-lg shadow-lg max-w-[60rem] max-h-[50rem] min-h-[5rem] overflow-y-auto">
         
-                    <div class="space-y-5 p-5 relative max-h-96 items-center">
-                        <div class="absolute align-top-right cursor-pointer text-xl font-bold" id="close-popup">X</div>
-                        <h1 class="text-black text-2xl">${title}</h1>
-                        <p class="text-black">
-                        ${description}
-                        </p>
-                        
+                        <div class="space-y-5 p-5 relative items-center">
+                            <div class="absolute align-top-right cursor-pointer text-xl font-bold" id="close-popup">X</div>
+                            <h1 class="text-black text-2xl">${title}</h1>
+                            <p class="text-black">
+                            ${description}
+                            </p>
+                            
+                        </div>
                     </div>
                     `
                     popup.classList.remove('hidden');
@@ -107,3 +108,5 @@ window.nextStep = nextStep;
 window.backStep = backStep;
 document.getElementById('js-price').addEventListener('input', calculateLoanAmount)
 document.getElementById('js-deposit').addEventListener('input', calculateLoanAmount)
+
+

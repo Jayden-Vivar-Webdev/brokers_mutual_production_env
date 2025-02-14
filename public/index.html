@@ -127,7 +127,7 @@
             <a href="contact.html">
               <div
                 class="hidden md:inline-flex text-lg sm:text-1xl md:text-lg mt-5 lg:text-1xl p-2 px-5 bg-blue-600 rounded-full text-white inline-flex justify-center items-center hidden-elm hover:bg-blue-500">
-                See How We Can Help <box-icon name='right-arrow-alt' color='#fff9f9'></box-icon>
+                Contact Us Now <box-icon name='right-arrow-alt' color='#fff9f9'></box-icon>
               </div>
             </a>
           </div>
@@ -294,7 +294,16 @@
       </h1>
     </section>
 
-    <div class="scrolling-background-l mb-0 hidden-elm"></div>
+    <!--New Scroll feature-->
+    <div class="relative overflow-hidden w-full h-auto overflow-x-auto hide-scrollbar">
+      <div class="scroller" data-direction="">
+          <div class="scroller__inner" >
+              <img src="../assets/images/ls-1.png" alt="lender-icons" class="w-[63rem] h-auto object-contain">
+              <img src="../assets/images/ls-2.png" alt="lender-icons" class="w-[63rem] h-auto object-contain">
+              <img src="../assets/images/ls-3.png" alt="lender-icons" class="w-[63rem] h-auto object-contain">
+          </div>
+      </div>
+    </div>
 
 
   </main>
@@ -366,7 +375,9 @@
   <!-- <script src="./scripts/footer-script.js"></script> -->
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   <!-- <script src="./scripts/menu-script.js"></script> -->
+  <script src="../js/scroller.js"></script>
   <script type="module" src="../js/main.js" defer></script>
+  
 
 </body>
 

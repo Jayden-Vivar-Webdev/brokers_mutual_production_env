@@ -104,30 +104,6 @@ main {
   animation: appear 2s ease-in-out;
 }
 
-.scrolling-background-l {
-  width: 100%;
-  height: 13vh;
-  /* or any desired height */
-  background-image: url('./assets/images/lenders-list.png');
-  background-repeat: repeat-x;
-  /* Repeat horizontally */
-  background-size: auto 100%;
-  /* Ensure the image fits the div height */
-  animation: scroll-background 1000s linear infinite;
-  /* Adjust the duration for smooth scrolling */
-}
-
-@keyframes scroll-background {
-  0% {
-    background-position: 0 0;
-  }
-
-  100% {
-    background-position: calc(-6000vw) 0;
-    /* Scroll by one viewport width */
-  }
-}
-
 .hidden-elm {
   opacity: 0;
   filter: blur(2px);
@@ -165,4 +141,56 @@ main {
 
 .grid-elm:nth-child(4) {
   transition-delay: 300ms;
+}
+
+.scroller {
+  max-width: 100vw;
+  z-index: 10;
+}
+
+.scroller__inner {
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.scroller[data-animated=true] {
+  overflow: hidden;
+  -webkit-mask: linear-gradient(
+      90deg, 
+      transparent, 
+      white 10%, 
+      white 90%,
+      transparent);
+  mask: linear-gradient(
+      90deg, 
+      transparent, 
+      white 10%, 
+      white 90%,
+      transparent);
+}
+
+.scroller[data-animated=true] .scroller__inner {
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: scroll var(--_animation-duration, 40s) var(--_animation-direction, forwards) linear infinite;
+
+}
+
+.scroller[data-direction="opposite"] {
+  --_animation-direction: reverse;
+}
+
+.scroller[data-speed="slow"] {
+  --_animation-duration: 40s;
+}
+.scroller[data-speed="fast"] {
+  --_animation-duration: 20s;
+}
+
+@keyframes scroll {
+  to {
+      transform: translate(calc(-50% - 0.25rem));
+  }
 }
