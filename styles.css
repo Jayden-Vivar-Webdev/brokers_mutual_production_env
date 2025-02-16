@@ -118,14 +118,14 @@ main {
 }
 
 
-/* @media (prefers-reduced-motion: reduce) {
+@media (prefers-reduced-motion: reduce) {
   .hidden-elm,
   .show {
       transition: none !important;
       opacity: 1;
       transform: translateY(0);
   }
-} */
+} 
 
 .border-round{
   border-radius: 20px;

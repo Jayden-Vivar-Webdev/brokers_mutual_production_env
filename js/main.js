@@ -37,7 +37,7 @@ function popUp(openPopup){
                     const popupElm = document.getElementById('popup')
                     popupElm.innerHTML =
                     `
-                    <div class="bg-white p-5 rounded-lg shadow-lg max-w-[60rem] max-h-[50rem] min-h-[5rem] overflow-y-auto">
+                    <div class="bg-white p-5 rounded-lg shadow-lg max-w-[60rem] max-h-[39rem] min-h-[5rem] overflow-y-auto">
         
                         <div class="space-y-5 p-5 relative items-center">
                             <div class="absolute align-top-right cursor-pointer text-xl font-bold" id="close-popup">X</div>
